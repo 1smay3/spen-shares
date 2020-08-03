@@ -6,7 +6,7 @@ from dash.dependencies import Input, Output
 from apps import home
 
 BS = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-app = dash.Dash(external_stylesheets=[dbc.themes.DARKLY])
+app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 #Simple Navbar cant have logo. Leave that for now.
 

@@ -8,12 +8,15 @@ from index import navbar
 #https://dash-bootstrap-components.opensource.faculty.ai/docs/components/layout/
 # change to app.layout if running as single page app instead
 
+#get svg not png
+
+
 DCF_card_content = dbc.Card(
     [
-        dbc.CardImg(src="https://image.flaticon.com/icons/svg/2172/2172450.svg", top=True),
+        dbc.CardHeader("DCF Estimation"),
+        dbc.CardImg(src="/assets/money.png", top=True, title="ADD CREDIT COMMENT", className="card-img"),
         dbc.CardBody(
             [
-                html.H4("DCF Estimation", className="card-title"),
                 html.P(
                     "Some quick example text to build on the card title and "
                     "make up the bulk of the card's content.",
@@ -23,18 +26,18 @@ DCF_card_content = dbc.Card(
             ]
         ),
     ],
-style={"height": "18rem", "width":"18rem"},
 )
 
 PE_card_content = [
     dbc.CardHeader("P/E Ratio"),
     dbc.CardBody(
         [
-            dbc.CardImg(src="https://image.flaticon.com/icons/svg/2172/2172450.svg", top=True),
+            dbc.CardImg(src="/assets/money.png", top=True, title="ADD CREDIT COMMENT", className="card-img"),
             html.P(
                 "Historical P/E ratio for all S&P500 companies",
                 className="card-text",
             ),
+            dbc.Button("P/E Ratio", color="primary")
         ]
     ),
 ]
@@ -43,11 +46,12 @@ PB_card_content = [
     dbc.CardHeader("P/B Ratio"),
     dbc.CardBody(
         [
-            dbc.CardImg(src="https://image.flaticon.com/icons/svg/2172/2172450.svg", top=True),
+            dbc.CardImg(src="/assets/money.png", top=True, title="ADD CREDIT COMMENT", className="card-img"),
             html.P(
                 "Historical P/B ratio for all S&P500 companies",
                 className="card-text",
             ),
+            dbc.Button("P/B Ratio", color="primary")
         ]
     ),
 ]
@@ -55,13 +59,13 @@ PB_card_content = [
 
 padding = html.Div(
     [
-        dbc.Row(dbc.Col(html.Div("")))])
+        dbc.Row(dbc.Col(html.Div("")))], style={'padding': 10})
 
 cards =dbc.Row(
             [
-                dbc.Col(dbc.Card(DCF_card_content, color="info", inverse=False), width="2"),
-                dbc.Col(dbc.Card(DCF_card_content, inverse=True), width="2"),
-                dbc.Col(dbc.Card(DCF_card_content, inverse=True), width="2"),
+                dbc.Col(dbc.Card(PE_card_content, inverse=False), style={'margin': 10}),
+                dbc.Col(dbc.Card(DCF_card_content, inverse=False), style={'margin': 10}),
+                dbc.Col(dbc.Card(PB_card_content, inverse=False), style={'margin': 10}),
             ],
             className="mb-5",justify="center"
         )
