@@ -8,7 +8,7 @@ from dash.dependencies import Input, Output, State
 #Functions
 from backend.chartplotter import *
 from backend.SPYConstituents import *
-
+from navbar import navbar
 #App
 from app import app
 
@@ -28,7 +28,7 @@ StockDCFfig = stockpriceDCFplot(" Daily Price and DCF", dfWide, 'MMM')
 ChangeFig = deviationPlot("DCF Deviation from Stock Price", dfWide)
 
 # Define the app
-layout = html.Div(
+charts = html.Div(
     children=[
         html.Div(className='row',
                  children=[
@@ -60,6 +60,7 @@ layout = html.Div(
         ]
 
 )
+layout = html.Div([navbar, charts])
 
 # Update price chart
 @app.callback(

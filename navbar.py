@@ -10,6 +10,7 @@ navbar = dbc.NavbarSimple(
     ],
     brand="SpenShares",
     brand_href="/home",
-    color="primary",
+    color="secondary",
     dark=True,
+    fluid=True
 )
