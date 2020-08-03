@@ -1,14 +1,6 @@
 import dash_html_components as html
 import dash_bootstrap_components as dbc
-from index import navbar
-# needed only if running this as a single page app
-#external_stylesheets = [dbc.themes.LUX]
-
-#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-#https://dash-bootstrap-components.opensource.faculty.ai/docs/components/layout/
-# change to app.layout if running as single page app instead
-
-#get svg not png
+from navbar import navbar
 
 
 DCF_card_content = dbc.Card(
@@ -70,7 +62,7 @@ cards =dbc.Row(
             className="mb-5",justify="center"
         )
 
-layout = html.Div([navbar,padding,cards])
+layout = html.Div([navbar, padding,cards])
 
 
 
