@@ -25,7 +25,7 @@ DCF_card_content = dbc.Card(
     ],
 style={"height": "18rem", "width":"18rem"},
 )
-git add .
+
 PE_card_content = [
     dbc.CardHeader("P/E Ratio"),
     dbc.CardBody(
