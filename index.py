@@ -3,9 +3,9 @@ import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
-from apps import landingpage, DCFInteractive
+from apps import landingpage, DCFInteractive, PEInteractive
 from app import app
-from navbar import navbar
+from backend.navbar import navbar
 
 
 app.layout = html.Div([
@@ -24,7 +24,7 @@ def display_page(pathname):
     if pathname == '/DCF':
         return DCFInteractive.layout
     elif pathname == '/PE':
-        return PE_page_layout
+        return PEInteractive.layout
     elif pathname == '/PB':
         return PB_page_layout
     else:

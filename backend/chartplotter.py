@@ -110,7 +110,7 @@ def stockpriceDCFplot(title, dataframe, ticker):
     )
 
     # Update default range for valid data
-    inital_range = validrangefinder(dataframe, 'dcf')
+    inital_range = validrangefinder(dataframe, 'dcf', 'date')
     fig['layout']['xaxis'].update(range=inital_range)
 
     # Set y-axes titles
@@ -160,7 +160,7 @@ def deviationPlot(title, dataframe):
     )
 
     # Update default range for valid data
-    inital_range = validrangefinder(dataframe, 'dcf')
+    inital_range = validrangefinder(dataframe, 'dcf', 'date')
     fig['layout']['xaxis'].update(range=inital_range)
 
     # Set y-axes titles
@@ -172,16 +172,137 @@ def deviationPlot(title, dataframe):
 
     return fig
 
-def validrangefinder(dataframe, column):
+def validrangefinder(dataframe, column, relevant_column_name):
     # Get initial range from DF and update defaul range accordingly
     firstValidPointIndex = dataframe.apply(pd.Series.first_valid_index)
     firstValidPointValues = dataframe.iloc[firstValidPointIndex[column]]
-    specificFirstPoint = firstValidPointValues['date']
+    specificFirstPoint = firstValidPointValues[relevant_column_name]
 
     lastValidPointIndex = dataframe.apply(pd.Series.last_valid_index)
     lastValidPointValues = dataframe.iloc[lastValidPointIndex[column]]
-    specificlastPoint = lastValidPointValues['date']
+    specificlastPoint = lastValidPointValues[relevant_column_name]
 
     valid_range = [specificFirstPoint, specificlastPoint]
 
     return valid_range
+
+
+
+def stockPEPRICEplot(title, dataframe, ticker):
+    # Create figure with secondary y-axis
+    fig = make_subplots(specs=[[{"secondary_y": False}]])
+
+    # Left hand side data 1
+    fig.add_trace(
+        go.Scatter(x=dataframe['index'], y=dataframe['close'], name="Close Price"),
+        secondary_y=False,
+    )
+    # Left hand side data 2
+    fig.add_trace(
+        go.Scatter(x=dataframe['index'], y=dataframe['PE Ratio'], name="P/E Ratio"),
+        secondary_y=False,
+    )
+
+    # Add figure title
+    fig.update_layout(
+        title_text=title,
+        template='plotly_dark').update_layout(
+        {'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+         'paper_bgcolor': 'rgba(0, 0, 0, 0)'})
+
+    #Show or Hide legend
+    fig.update_layout(legend=dict(
+        orientation="h",
+        yanchor="bottom",
+        y=1.02,
+        xanchor="right",
+        x=1
+    ))
+
+    # Set x-axis title
+    fig.update_xaxes(title_text="Date")
+
+    # Add range slider and buttons
+    fig.update_xaxes(
+        rangeslider_visible=True,
+        rangeselector=dict(bgcolor="#31302f", activecolor ="#46b650",
+            buttons=list([
+                dict(count=1, label="1M", step="month", stepmode="backward"),
+                dict(count=6, label="6M", step="month", stepmode="backward"),
+                dict(count=1, label="YTD", step="year", stepmode="todate"),
+                dict(count=1, label="1Y", step="year", stepmode="backward"),
+                dict(step="all", label="All")
+            ])
+        )
+    )
+
+    # Update default range for valid data
+    inital_range = validrangefinder(dataframe, 'PE Ratio', 'index')
+    fig['layout']['xaxis'].update(range=inital_range)
+
+    # Set y-axes titles
+    fig.update_yaxes(title_text="<b>Close Price / DCF ($)</b>", secondary_y=False)
+
+
+    # Auto Rescale y axis
+    plt.autoscale(enable=True, tight=True)
+
+    return fig
+
+
+
+def stockEPSplot(title, dataframe, ticker):
+    # Create figure with secondary y-axis
+    fig = make_subplots(specs=[[{"secondary_y": False}]])
+
+    # Left hand side data 1
+    fig.add_trace(
+        go.Scatter(x=dataframe['index'], y=dataframe['EPS'], name="Close Price"),
+        secondary_y=False,
+    )
+
+       # Add figure title
+    fig.update_layout(
+        title_text=title,
+        template='plotly_dark').update_layout(
+        {'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+         'paper_bgcolor': 'rgba(0, 0, 0, 0)'})
+
+    #Show or Hide legend
+    fig.update_layout(legend=dict(
+        orientation="h",
+        yanchor="bottom",
+        y=1.02,
+        xanchor="right",
+        x=1
+    ))
+
+    # Set x-axis title
+    fig.update_xaxes(title_text="Date")
+
+    # Add range slider and buttons
+    fig.update_xaxes(
+        rangeslider_visible=True,
+        rangeselector=dict(bgcolor="#31302f", activecolor ="#46b650",
+            buttons=list([
+                dict(count=1, label="1M", step="month", stepmode="backward"),
+                dict(count=6, label="6M", step="month", stepmode="backward"),
+                dict(count=1, label="YTD", step="year", stepmode="todate"),
+                dict(count=1, label="1Y", step="year", stepmode="backward"),
+                dict(step="all", label="All")
+            ])
+        )
+    )
+
+    # Update default range for valid data
+    inital_range = validrangefinder(dataframe, 'PE Ratio', 'index')
+    fig['layout']['xaxis'].update(range=inital_range)
+
+    # Set y-axes titles
+    fig.update_yaxes(title_text="<b>Close Price / DCF ($)</b>", secondary_y=False)
+
+
+    # Auto Rescale y axis
+    plt.autoscale(enable=True, tight=True)
+
+    return fig

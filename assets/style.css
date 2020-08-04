@@ -9,3 +9,44 @@
   vertical-align: middle;
   horizontal-align: middle;
 }
+
+html, body {
+    height: 100%;
+    position: relative;
+    padding-top: 0px;
+}
+
+
+.columns {
+    background-color: #F8F8F8;
+    height: 100vh;
+}
+
+.content-area, .article-tree{
+    background: #bada55;
+    overflow:auto;
+    height: 100%;
+}
+
+.footer {
+    background: red;
+    height: 20px;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.dashboard-LHS-columns {
+background-color: #F8F8F8;
+font-size:20px
+height: 100vh
+}
+
+.dashboard-RHS-columns {
+background-color: #303030;
+font-size:20px
+height: 100vh
+}
