@@ -24,8 +24,8 @@ FirmSelector = html.Div(
                                  html.Div(
 
     dcc.Dropdown(id='stockselector', options=getspydictionary(),
-                                                      multi=False, value='MMM',
-                                                            className='dashboard-LHS-columns')
+                                                      multi=False, value='MMM'
+                                                            )
                                  )])
 
 # Make PE charts
@@ -47,16 +47,16 @@ def get_options(list_stocks):
 StockPEfig = stockPEPRICEplot(" Daily Price and P/E Ratio", priceEarningsDF, 'MMM')
 EPSfig = stockEPSplot(" Daily Price and P/E Ratio", priceEarningsDF, 'MMM')
 
-topChart = html.Div(
+topChart = html.Div(className="dashboard-chart",
     children=[
         dcc.Graph(id='PE Chart', figure=StockPEfig)
 
 
     ])
 
-bottomchart = html.Div(
+bottomchart = html.Div(className="dashboard-chart",
     children=[
-        dcc.Graph(id='PE Chart', figure=EPSfig)
+        dcc.Graph(id='EPS Chart', figure=EPSfig)
 
 
     ])
@@ -64,30 +64,18 @@ bottomchart = html.Div(
 
 # EXTRACTED LAYOUT VERSION - CONDENSE WITH ASSIGNMENTS ABOVE LATER
 
-layout2 = [navbar,
-          dbc.Col(FirmSelector),
-          html.Div(dbc.Col(topChart))]
-
-working_base_layout = [navbar,html.Div(
+layout = [navbar,html.Div(
     [
         dbc.Row(
             [
-                dbc.Col(html.Div("One of two columns"), width=4),
+                dbc.Col(FirmSelector, width=2, className='dashboard-LHS-columns'),
                 dbc.Col([
-                    html.Div(dbc.Row("One of row in columns")),
-                    html.Div(dbc.Row("One of row in columns"))]
+                    html.Div(dbc.Row(topChart)),
+                    html.Div(dbc.Row(bottomchart))
+                    ], width=10, className='dashboard-RHS-columns'
+
                 )]
         )])]
-
-
-
-
-
-
-
-
-
-
 
 
 
