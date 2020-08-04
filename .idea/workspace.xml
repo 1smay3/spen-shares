@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596575151297</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Data added">
+      <created>1596575688543</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596575688543</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -319,10 +327,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#navbar/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596489064817" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1596575150463">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1596575687596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596575150463" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596575687596" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1596471257443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -355,10 +363,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596488437003" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596575154848">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596575689799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596575154848" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596575689799" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596573972002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
