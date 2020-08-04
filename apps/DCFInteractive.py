@@ -6,7 +6,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output, State
 
 #Functions
-from backend.chartplotter import *
+from backend.ChartPlotter import *
 from backend.SPYConstituents import *
 from backend.navbar import navbar
 import pickle

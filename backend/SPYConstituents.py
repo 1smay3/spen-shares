@@ -1,9 +1,10 @@
 import pandas as pd
-from backend.config import *
+import pickle
 
-rawSPYConstituents = requests.get(
-    BASE_URL + "sp500_constituent?" + "apikey=" + API_KEY)
-SPYConstituents = json.loads(rawSPYConstituents.content)
+# Load in SPY Savedown
+filename = "C:/Users/spenc/PycharmProjects/spen-shares/data/SPYConstitituents/SPY.pkl"
+with open(filename, 'rb') as handle:
+    SPYConstituents = pickle.load(handle)
 
 SPYConstituents = [ k["symbol"] for k in SPYConstituents]
 
@@ -13,12 +14,10 @@ SPYConstituents.remove('CARR')
 SPYConstituents.remove('FRC')
 
 
-
 def SPYConstituentsDictionarynames(key1, key2):
-
-    rawSPYConstituents = requests.get(
-            BASE_URL + "sp500_constituent?" + "apikey=" + API_KEY)
-    SPYConstituents = json.loads(rawSPYConstituents.content)
+    filename = "C:/Users/spenc/PycharmProjects/spen-shares/data/SPYConstitituents/SPY.pkl"
+    with open(filename, 'rb') as handle:
+        SPYConstituents = pickle.load(handle)
 
     names = [k["name"] for k in SPYConstituents]
     tickers = [k["symbol"] for k in SPYConstituents]
@@ -31,10 +30,9 @@ def SPYConstituentsDictionarynames(key1, key2):
     return names
 
 def SPYConstituentsDictionaryFULL(key1, key2):
-
-    rawSPYConstituents = requests.get(
-            BASE_URL + "sp500_constituent?" + "apikey=" + API_KEY)
-    SPYConstituents = json.loads(rawSPYConstituents.content)
+    filename = "C:/Users/spenc/PycharmProjects/spen-shares/data/SPYConstitituents/SPY.pkl"
+    with open(filename, 'rb') as handle:
+        SPYConstituents = pickle.load(handle)
 
     names = [k["name"] for k in SPYConstituents]
     tickers = [k["symbol"] for k in SPYConstituents]
@@ -49,10 +47,9 @@ def SPYConstituentsDictionaryFULL(key1, key2):
 
 
 def SPYConstituentsDictionarytickers(key1, key2):
-
-    rawSPYConstituents = requests.get(
-            BASE_URL + "sp500_constituent?" + "apikey=" + API_KEY)
-    SPYConstituents = json.loads(rawSPYConstituents.content)
+    filename = "C:/Users/spenc/PycharmProjects/spen-shares/data/SPYConstitituents/SPY.pkl"
+    with open(filename, 'rb') as handle:
+        SPYConstituents = pickle.load(handle)
 
     names = [k["name"] for k in SPYConstituents]
     tickers = [k["symbol"] for k in SPYConstituents]
@@ -64,13 +61,11 @@ def SPYConstituentsDictionarytickers(key1, key2):
     #     return mappedData
     return tickers
 
-test = SPYConstituentsDictionaryFULL('name', 'symbol')
-
 
 def getspydictionary():
-    rawSPYDict = requests.get(
-        BASE_URL + "sp500_constituent?" + "apikey=" + API_KEY)
-    SPYDict = json.loads(rawSPYDict.content)
+    filename = "C:/Users/spenc/PycharmProjects/spen-shares/data/SPYConstitituents/SPY.pkl"
+    with open(filename, 'rb') as handle:
+        SPYDict = pickle.load(handle)
 
     keys = {"name", "symbol"}
 
@@ -81,4 +76,15 @@ def getspydictionary():
         d['value'] = d.pop('symbol')
 
     return filtered_dict
+
+def savenewSPY():
+    rawSPYConstituents = requests.get(
+        BASE_URL + "sp500_constituent?" + "apikey=" + API_KEY)
+    SPYConstituents = json.loads(rawSPYConstituents.content)
+    filename = "C:/Users/spenc/PycharmProjects/spen-shares/data/SPYConstitituents/SPY.pkl"
+    with open(filename, 'wb') as handle:
+        pickle.dump(SPYConstituents, handle)
+
+
+
 

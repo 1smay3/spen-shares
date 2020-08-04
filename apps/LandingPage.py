@@ -5,7 +5,7 @@ from backend.navbar import navbar
 
 DCF_card_content = [
     dbc.CardHeader("DCF Estimation"),
-    dbc.CardImg(src="../assets/cash-flow.svg", top=True, title="Icon made by Eucalyp from www.flaticon.com", className="card-img"),
+    dbc.CardImg(src="../assets/images/cash-flow.svg", top=True, title="Icon made by Eucalyp from www.flaticon.com", className="card-img"),
     dbc.CardBody(
         [
             html.P(
@@ -20,7 +20,7 @@ DCF_card_content = [
 
 PE_card_content = [
     dbc.CardHeader("P/E Ratio"),
-    dbc.CardImg(src="../assets/calculator.svg", top=True, title="Icon made by Good Ware from www.flaticon.com", className="card-img"),
+    dbc.CardImg(src="../assets/images/calculator.svg", top=True, title="Icon made by Good Ware from www.flaticon.com", className="card-img"),
     dbc.CardBody(
         [
             html.P(
@@ -34,7 +34,7 @@ PE_card_content = [
 
 PB_card_content = [
     dbc.CardHeader("P/B Ratio"),
-    dbc.CardImg(src="../assets/factory.svg", top=True, title="Icon made by srip from www.flaticon.com", className="card-img"),
+    dbc.CardImg(src="../assets/images/factory.svg", top=True, title="Icon made by srip from www.flaticon.com", className="card-img"),
     dbc.CardBody(
         [
                         html.P(

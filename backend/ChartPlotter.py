@@ -190,7 +190,7 @@ def validrangefinder(dataframe, column, relevant_column_name):
 
 def stockPEPRICEplot(title, dataframe, ticker):
     # Create figure with secondary y-axis
-    fig = make_subplots(specs=[[{"secondary_y": False}]])
+    fig = make_subplots(specs=[[{"secondary_y": True}]])
 
     # Left hand side data 1
     fig.add_trace(
@@ -200,7 +200,7 @@ def stockPEPRICEplot(title, dataframe, ticker):
     # Left hand side data 2
     fig.add_trace(
         go.Scatter(x=dataframe['index'], y=dataframe['PE Ratio'], name="P/E Ratio"),
-        secondary_y=False,
+        secondary_y=True,
     )
 
     # Add figure title
@@ -241,7 +241,8 @@ def stockPEPRICEplot(title, dataframe, ticker):
     fig['layout']['xaxis'].update(range=inital_range)
 
     # Set y-axes titles
-    fig.update_yaxes(title_text="<b>Close Price / DCF ($)</b>", secondary_y=False)
+    fig.update_yaxes(title_text="<b>Close Price($)</b>", secondary_y=False)
+    fig.update_yaxes(title_text="<b>PE Ratio</b>", secondary_y=True)
 
 
     # Auto Rescale y axis
@@ -299,7 +300,7 @@ def stockEPSplot(title, dataframe, ticker):
     fig['layout']['xaxis'].update(range=inital_range)
 
     # Set y-axes titles
-    fig.update_yaxes(title_text="<b>Close Price / DCF ($)</b>", secondary_y=False)
+    fig.update_yaxes(title_text="<b>EPS</b>", secondary_y=False)
 
 
     # Auto Rescale y axis

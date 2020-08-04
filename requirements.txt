@@ -1,0 +1,8 @@
+heroku loginpandas==1.0.3
+dash==1.14.0
+dash_bootstrap_components==0.10.3
+dash_core_components==1.10.2
+dash_html_components==1.0.3
+dash_renderer==1.6.0
+matplotlib==3.3.0
+plotly==4.9.0

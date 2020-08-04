@@ -6,7 +6,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output, State
 
 #Functions
-from backend.chartplotter import *
+from backend.ChartPlotter import *
 from backend.SPYConstituents import *
 from backend.navbar import navbar
 import pickle
@@ -18,8 +18,8 @@ from app import app
 # Dropdown Selector
 FirmSelector = html.Div(
                              children=[
-                                 html.H2('DCF Estimation'),
-                                 html.P('Visualising DCF estimation series'),
+                                 html.H2('Historical P/E Ratio'),
+                                 html.P('Visualising P/E Ratio and its relationship to price'),
                                  html.P('Pick stocks from the dropdown below to update the charts.'),
                                  html.Div(
 
@@ -87,7 +87,7 @@ def update_chart(value):
     companySelected = value
     newDF = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/PERATIO/" + companySelected + ".pkl")
     newDF.reset_index(inplace=True)
-    figure = stockPEPRICEplot(" Daily Price and DCF", newDF, companySelected)
+    figure = stockPEPRICEplot(" Daily Price and P/E Ratio", newDF, companySelected)
     return figure
 
 # Update deviation chart
@@ -99,7 +99,7 @@ def update_chart(value):
     companySelected = value
     newDF = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/PERATIO/" + companySelected + ".pkl")
     newDF.reset_index(inplace=True)
-    figure = stockEPSplot("DCF Deviation from Stock Price", newDF, companySelected)
+    figure = stockEPSplot("Daily Earnings Per Share (EPS)", newDF, companySelected)
     return figure
 
 

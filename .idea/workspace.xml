@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/dcfInteractive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/DCFInteractive.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dcfdraft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/PEInteractive.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/PEInteractive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/dcfInteractive.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/DCFInteractive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/landingpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/LandingPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/calculator.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/calculator.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cash-flow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cash-flow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/dcfdraft.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/factory.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/factory.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/spenshares.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/spenshares.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/SPYConstituents.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/SPYConstituents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/chartplotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ChartPlotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +49,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\backend" />
-      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\apps" />
-      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets" />
-      <recent name="C:\Users\spenc\PycharmProjects\DashWebpage\assets" />
-      <recent name="C:\Users\spenc\PycharmProjects\DashWebpage" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\data" />
       <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets\images" />
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets" />
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\backend" />
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\apps" />
+      <recent name="C:\Users\spenc\PycharmProjects\DashWebpage\assets" />
     </key>
   </component>
   <component name="RunManager" selected="Python.index">
@@ -65,6 +75,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/PEInteractive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SPYConstituents" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DashWebapge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\spenc\PycharmProjects\NegativeEVScreener\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/SPYConstituents.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,27 +167,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="landingpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DashWebapge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\spenc\PycharmProjects\spen-shares\apps\landingpage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="navbar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DashWebapge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,16 +192,16 @@
       <item itemvalue="Python.index" />
       <item itemvalue="Python.index_test" />
       <item itemvalue="Python.navbar" />
-      <item itemvalue="Python.landingpage" />
       <item itemvalue="Python.PEInteractive" />
+      <item itemvalue="Python.SPYConstituents" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.index" />
+        <item itemvalue="Python.SPYConstituents" />
         <item itemvalue="Python.PEInteractive" />
         <item itemvalue="Python.navbar" />
         <item itemvalue="Python.index_test" />
-        <item itemvalue="Python.landingpage" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596564366913</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Interacticity on PE and DCF completed">
+      <created>1596568140375</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596568140375</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,7 +266,8 @@
     <MESSAGE value="Working DCF section - Now implement visuals" />
     <MESSAGE value="Visuals as desired - now to change layout so all fits and is readable" />
     <MESSAGE value="Layout for dashboard designed correctly - now to insert content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layout for dashboard designed correctly - now to insert content" />
+    <MESSAGE value="Interacticity on PE and DCF completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interacticity on PE and DCF completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1596392831013">
@@ -260,14 +278,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#PEInteractive/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596499010528" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596499014241">
+    <state x="679" y="134" key="#SPYConstituents" timestamp="1596572690041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596499014241" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596488934402">
+    <state x="679" y="134" key="#SPYConstituents/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596572690041" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596572693796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596488934402" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596572693796" />
+    <state x="725" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596573333572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="725" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596573333572" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596572966320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596572966320" />
     <state x="679" y="146" key="#homepage" timestamp="1596392856064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -284,49 +310,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#navbar/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596489064817" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1596564365746">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1596568139280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596564365746" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596568139280" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1596471257443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596471257443" />
-    <state width="1899" height="220" key="GridCell.Tab.0.bottom" timestamp="1596568041400">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1596573793543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.bottom/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596568041400" />
-    <state width="1899" height="220" key="GridCell.Tab.0.center" timestamp="1596568041399">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596573793543" />
+    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1596573793543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.center/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="220" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596568041399" />
-    <state width="1899" height="220" key="GridCell.Tab.0.left" timestamp="1596568041399">
+    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596573793543" />
+    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1596573793543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.left/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="220" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596568041399" />
-    <state width="1899" height="220" key="GridCell.Tab.0.right" timestamp="1596568041400">
+    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596573793543" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1596573793543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.right/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="220" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596568041400" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596573793543" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1596488437003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596488437003" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596564369638">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596568142028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596564369638" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596567594057">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596568142028" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596573972002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596567594057" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596573972002" />
   </component>
 </project>
