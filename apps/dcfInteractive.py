@@ -31,8 +31,7 @@ FirmSelector = html.Div(
 # Make PE charts
 
 #Generate df for plotting and drop index to allow easier charting
-priceEarningsDF= pd.read_pickle(r'C:/Users/spenc/PycharmProjects/spen-shares/data/PERATIO/MMM.pkl')
-priceEarningsDF.reset_index(inplace=True)
+dfWide= pd.read_csv(r'C:/Users/spenc/PycharmProjects/spen-shares/data/DCF/MMM_HDCF.csv')
 
 #Create list of stocks for dropdown
 
@@ -44,19 +43,19 @@ def get_options(list_stocks):
     return dict_list
 
 #plot charts
-StockPEfig = stockPEPRICEplot(" Daily Price and P/E Ratio", priceEarningsDF, 'MMM')
-EPSfig = stockEPSplot(" Daily Price and P/E Ratio", priceEarningsDF, 'MMM')
+StockDCFfig = stockpriceDCFplot(" Daily Price and DCF", dfWide, 'MMM')
+ChangeFig = deviationPlot("DCF Deviation from Stock Price", dfWide)
 
 topChart = html.Div(className="dashboard-chart",
     children=[
-        dcc.Graph(id='PE Chart', figure=StockPEfig)
+        dcc.Graph(id='PricesChart', figure=StockDCFfig)
 
 
     ])
 
 bottomchart = html.Div(className="dashboard-chart",
     children=[
-        dcc.Graph(id='EPS Chart', figure=EPSfig)
+        dcc.Graph(id='DCFChart', figure=ChangeFig)
 
 
     ])
@@ -80,26 +79,24 @@ layout = [navbar,html.Div(
 
 # Update price chart
 @app.callback(
-    dash.dependencies.Output('PE Chart', 'figure'),
+    dash.dependencies.Output('PricesChart', 'figure'),
     [dash.dependencies.Input('stockselector', 'value')])
 
 def update_chart(value):
     companySelected = value
-    newDF = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/PERATIO/" + companySelected + ".pkl")
-    newDF.reset_index(inplace=True)
-    figure = stockPEPRICEplot(" Daily Price and DCF", newDF, companySelected)
+    newDF = pd.read_csv(r"C:/Users/spenc/PycharmProjects/spen-shares/data/DCF/" + companySelected + "_HDCF.csv")
+    figure = stockpriceDCFplot(" Daily Price and DCF", newDF, companySelected)
     return figure
 
 # Update deviation chart
 @app.callback(
-    dash.dependencies.Output('EPS Chart', 'figure'),
+    dash.dependencies.Output('DCFChart', 'figure'),
     [dash.dependencies.Input('stockselector', 'value')])
 
 def update_chart(value):
     companySelected = value
-    newDF = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/PERATIO/" + companySelected + ".pkl")
-    newDF.reset_index(inplace=True)
-    figure = stockEPSplot("DCF Deviation from Stock Price", newDF, companySelected)
+    newDF = pd.read_csv(r"C:/Users/spenc/PycharmProjects/spen-shares/data/DCF/" + companySelected + "_HDCF.csv")
+    figure = deviationPlot("DCF Deviation from Stock Price", newDF)
     return figure
 
 

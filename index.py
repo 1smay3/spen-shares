@@ -3,7 +3,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
-from apps import landingpage, DCFInteractive, PEInteractive
+from apps import landingpage, PEInteractive, dcfInteractive
+from assets import dcfdraft
 from app import app
 from backend.navbar import navbar
 
@@ -22,7 +23,7 @@ PB_page_layout = html.Div([navbar, html.H1('PB')])
 @app.callback(Output('page-content', 'children'), [Input('url', 'pathname')])
 def display_page(pathname):
     if pathname == '/DCF':
-        return DCFInteractive.layout
+        return dcfInteractive.layout
     elif pathname == '/PE':
         return PEInteractive.layout
     elif pathname == '/PB':

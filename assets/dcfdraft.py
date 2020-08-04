@@ -62,24 +62,24 @@ charts = html.Div(
 )
 layout = html.Div([navbar, charts])
 
-# Update price chart
-@app.callback(
-    dash.dependencies.Output('PricesChart', 'figure'),
-    [dash.dependencies.Input('stockselector', 'value')])
-
-def update_chart(value):
-    companySelected = value
-    newDF = pd.read_csv(r"C:/Users/spenc/PycharmProjects/spen-shares/data/DCF/" + companySelected + "_HDCF.csv")
-    figure = stockpriceDCFplot(" Daily Price and DCF", newDF, companySelected)
-    return figure
-
-# Update deviation chart
-@app.callback(
-    dash.dependencies.Output('DCFChart', 'figure'),
-    [dash.dependencies.Input('stockselector', 'value')])
-
-def update_chart(value):
-    companySelected = value
-    newDF = pd.read_csv(r"C:/Users/spenc/PycharmProjects/spen-shares/data/DCF/" + companySelected + "_HDCF.csv")
-    figure = deviationPlot("DCF Deviation from Stock Price", newDF)
-    return figure
+# # Update price chart
+# @app.callback(
+#     dash.dependencies.Output('PricesChart', 'figure'),
+#     [dash.dependencies.Input('stockselector', 'value')])
+#
+# def update_chart(value):
+#     companySelected = value
+#     newDF = pd.read_csv(r"C:/Users/spenc/PycharmProjects/spen-shares/data/DCF/" + companySelected + "_HDCF.csv")
+#     figure = stockpriceDCFplot(" Daily Price and DCF", newDF, companySelected)
+#     return figure
+#
+# # Update deviation chart
+# @app.callback(
+#     dash.dependencies.Output('DCFChart', 'figure'),
+#     [dash.dependencies.Input('stockselector', 'value')])
+#
+# def update_chart(value):
+#     companySelected = value
+#     newDF = pd.read_csv(r"C:/Users/spenc/PycharmProjects/spen-shares/data/DCF/" + companySelected + "_HDCF.csv")
+#     figure = deviationPlot("DCF Deviation from Stock Price", newDF)
+#     return figure
