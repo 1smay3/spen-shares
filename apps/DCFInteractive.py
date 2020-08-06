@@ -7,7 +7,7 @@ import sys
 
 #Functions
 from backend.ChartPlotter import *
-from SPYGrab import *
+from backend.SPYGrab import *
 
 # Directories
 from settings import DATA_ROOT
