@@ -3,16 +3,14 @@ import dash
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 import dash_html_components as html
-from dash.dependencies import Input, Output, State
 
 #Functions
 from backend.ChartPlotter import *
-from backend.SPYConstituents import *
+from SPYGrab import *
 from backend.navbar import navbar
-import pickle
 #App
 from app import app
-
+from settings import DATA_ROOT
 
 #Define parts of page
 # Dropdown Selector
@@ -31,7 +29,7 @@ FirmSelector = html.Div(
 # Make PE charts
 
 #Generate df for plotting and drop index to allow easier charting
-priceEarningsDF= pd.read_pickle(r'C:/Users/spenc/PycharmProjects/spen-shares/data/PERATIO/MMM.pkl')
+priceEarningsDF= pd.read_pickle(DATA_ROOT + '/PERATIO/MMM.pkl')
 priceEarningsDF.reset_index(inplace=True)
 
 #Create list of stocks for dropdown
@@ -85,7 +83,7 @@ layout = [navbar,html.Div(
 
 def update_chart(value):
     companySelected = value
-    newDF = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/PERATIO/" + companySelected + ".pkl")
+    newDF = pd.read_pickle(DATA_ROOT + "/PERATIO/" + companySelected + ".pkl")
     newDF.reset_index(inplace=True)
     figure = stockPEPRICEplot(" Daily Price and P/E Ratio", newDF, companySelected)
     return figure
@@ -97,7 +95,7 @@ def update_chart(value):
 
 def update_chart(value):
     companySelected = value
-    newDF = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/PERATIO/" + companySelected + ".pkl")
+    newDF = pd.read_pickle(DATA_ROOT + "/PERATIO/" + companySelected + ".pkl")
     newDF.reset_index(inplace=True)
     figure = stockEPSplot("Daily Earnings Per Share (EPS)", newDF, companySelected)
     return figure

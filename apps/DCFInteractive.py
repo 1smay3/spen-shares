@@ -3,15 +3,17 @@ import dash
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 import dash_html_components as html
-from dash.dependencies import Input, Output, State
+import sys
 
 #Functions
 from backend.ChartPlotter import *
-from backend.SPYConstituents import *
-from backend.navbar import navbar
-import pickle
-#App
+from SPYGrab import *
+
+# Directories
+from settings import DATA_ROOT
+#App and components
 from app import app
+from navbar import navbar
 
 
 #Define parts of page
@@ -31,7 +33,7 @@ FirmSelector = html.Div(
 # Make PE charts
 
 #Generate df for plotting and drop index to allow easier charting
-dfWide= pd.read_csv(r'C:/Users/spenc/PycharmProjects/spen-shares/data/DCF/MMM_HDCF.csv')
+dfWide= pd.read_csv(DATA_ROOT + '/DCF/MMM_HDCF.csv')
 
 #Create list of stocks for dropdown
 
@@ -84,7 +86,7 @@ layout = [navbar,html.Div(
 
 def update_chart(value):
     companySelected = value
-    newDF = pd.read_csv(r"C:/Users/spenc/PycharmProjects/spen-shares/data/DCF/" + companySelected + "_HDCF.csv")
+    newDF = pd.read_csv(DATA_ROOT + "/DCF/" + companySelected + "_HDCF.csv")
     figure = stockpriceDCFplot(" Daily Price and DCF", newDF, companySelected)
     return figure
 
@@ -95,7 +97,7 @@ def update_chart(value):
 
 def update_chart(value):
     companySelected = value
-    newDF = pd.read_csv(r"C:/Users/spenc/PycharmProjects/spen-shares/data/DCF/" + companySelected + "_HDCF.csv")
+    newDF = pd.read_csv(DATA_ROOT + "/DCF/" + companySelected + "_HDCF.csv")
     figure = deviationPlot("DCF Deviation from Stock Price", newDF)
     return figure
 

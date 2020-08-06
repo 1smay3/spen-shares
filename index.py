@@ -1,13 +1,10 @@
 ### Dash
-import dash, dash_renderer
 import dash_core_components as dcc
 import dash_html_components as html
-import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
 # Apps and app
 from apps import LandingPage, PEInteractive, DCFInteractive
 from app import app
-from app import server
 
 # Navbar
 from backend.navbar import navbar
