@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/algorithm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/market-monitor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/short.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/spenshares.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/DCFInteractive.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/DCFInteractive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/LandingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/LandingPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/SPYGrab.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/SPYGrab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/navbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/navbar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +41,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets" />
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets\images" />
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\data\SPYConstitituents" />
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\backend" />
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\apps" />
-      <recent name="C:\Users\spenc\PycharmProjects\spen-shares" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\backend" />
@@ -394,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596751500335</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added new modules for later in project with routing and navbar interactions">
+      <created>1596753797334</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1596753797334</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -411,7 +414,8 @@
     <MESSAGE value="Pickle read protocol changed" />
     <MESSAGE value="Imported Server" />
     <MESSAGE value="Data corrected with sense check multiple on dcf value relative to price" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data corrected with sense check multiple on dcf value relative to price" />
+    <MESSAGE value="Added new modules for later in project with routing and navbar interactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new modules for later in project with routing and navbar interactions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1596392831013">
@@ -454,46 +458,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#navbar/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596489064817" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1596751478945">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1596753796223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596751478945" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596753796223" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1596734390295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596734390295" />
-    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1596753759942">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1596754813665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.bottom/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596753759942" />
-    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1596753759942">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596754813665" />
+    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1596754813665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.center/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596753759942" />
-    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1596753759942">
+    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596754813665" />
+    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1596754813665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.left/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596753759942" />
-    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1596753759942">
+    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596754813665" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1596754813665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.right/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596753759942" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596754813665" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1596731882230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596731882230" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596751506099">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596753798666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596751506099" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596753798666" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596735351945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
