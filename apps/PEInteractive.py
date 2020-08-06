@@ -29,8 +29,11 @@ FirmSelector = html.Div(
 # Make PE charts
 
 #Generate df for plotting and drop index to allow easier charting
+
 priceEarningsDF= pd.read_pickle(DATA_ROOT + '/PERATIO/MMM.pkl')
 priceEarningsDF.reset_index(inplace=True)
+
+
 
 #Create list of stocks for dropdown
 

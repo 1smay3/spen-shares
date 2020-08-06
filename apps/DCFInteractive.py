@@ -34,7 +34,7 @@ FirmSelector = html.Div(
 
 #Generate df for plotting and drop index to allow easier charting
 dfWide= pd.read_csv(DATA_ROOT + '/DCF/MMM_HDCF.csv')
-
+print(DATA_ROOT + '/DCF/MMM_HDCF.csv')
 #Create list of stocks for dropdown
 
 def get_options(list_stocks):
