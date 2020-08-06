@@ -50,9 +50,9 @@ padding = html.Div(
     [
         dbc.Row(dbc.Col(html.Div("")))])
 
-card_deck = dbc.CardDeck([dbc.Card(PE_card_content),dbc.Card(DCF_card_content),dbc.Card(PB_card_content)], style={'margin':20})
-
-layout = html.Div([navbar,padding,card_deck])
+upper_card_deck = dbc.CardDeck([dbc.Card(PE_card_content),dbc.Card(DCF_card_content),dbc.Card(PB_card_content)], style={'margin':20})
+#lower_card_deck =
+layout = html.Div([navbar,padding,upper_card_deck])
 
 
 

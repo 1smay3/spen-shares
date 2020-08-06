@@ -3,7 +3,507 @@
   <component name="ChangeListManager">
     <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/LandingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/LandingPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AAL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AAL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AAPL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AAPL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AAP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AAP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ABBV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ABBV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ABC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ABC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ABMD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ABMD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ABT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ABT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ACN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ACN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ADBE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ADBE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ADI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ADI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ADM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ADM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ADP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ADP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ADSK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ADSK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AEE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AEE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AEP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AEP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AES_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AES_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AFL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AFL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AIG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AIG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AIV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AIV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AIZ_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AIZ_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AJG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AJG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AKAM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AKAM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ALB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ALB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ALGN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ALGN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ALK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ALK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ALLE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ALLE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ALL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ALL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ALXN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ALXN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AMAT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AMAT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AMCR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AMCR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AMD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AMD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AME_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AME_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AMGN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AMGN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AMP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AMP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AMT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AMT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AMZN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AMZN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ANET_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ANET_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ANSS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ANSS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ANTM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ANTM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AON_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AON_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AOS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AOS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/APA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/APA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/APD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/APD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/APH_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/APH_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/APTV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/APTV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ARE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ARE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ATO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ATO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ATVI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ATVI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AVB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AVB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AVGO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AVGO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AVY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AVY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AWK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AWK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AXP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AXP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/AZO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/AZO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/A_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/A_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BAC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BAC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BAX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BAX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BBY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BBY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BDX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BDX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BEN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BEN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BIIB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BIIB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BIO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BIO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BKNG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BKNG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BKR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BKR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BLK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BLK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BLL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BLL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BMY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BMY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BSX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BSX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BWA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BWA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/BXP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/BXP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CAG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CAG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CAH_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CAH_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CAT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CAT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CBOE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CBOE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CBRE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CBRE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CCI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CCI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CCL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CCL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CDNS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CDNS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CDW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CDW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CERN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CERN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CFG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CFG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CF_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CF_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CHD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CHD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CHRW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CHRW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CHTR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CHTR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CINF_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CINF_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CLX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CLX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CMA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CMA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CMCSA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CMCSA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CME_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CME_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CMG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CMG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CMI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CMI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CMS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CMS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CNC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CNC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CNP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CNP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/COF_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/COF_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/COG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/COG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/COO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/COO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/COP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/COP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/COST_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/COST_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/COTY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/COTY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CPB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CPB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CPRT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CPRT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CRM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CRM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CSCO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CSCO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CSX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CSX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CTAS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CTAS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CTL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CTL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CTSH_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CTSH_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CTVA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CTVA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CTXS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CTXS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CVS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CVS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CVX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CVX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/CXO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/CXO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/C_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/C_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DAL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DAL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DFS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DFS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DGX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DGX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DHI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DHI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DHR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DHR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DISCA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DISCA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DISCK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DISCK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DISH_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DISH_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DIS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DIS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DLR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DLR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DLTR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DLTR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DOV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DOV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DOW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DOW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DPZ_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DPZ_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DRE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DRE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DRI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DRI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DTE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DTE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DUK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DUK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DVA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DVA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DVN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DVN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DXCM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DXCM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/DXC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/DXC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/D_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/D_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EBAY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EBAY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ECL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ECL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ED_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ED_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EFX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EFX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EIX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EIX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EMN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EMN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EMR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EMR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EOG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EOG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EQIX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EQIX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EQR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EQR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ESS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ESS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ES_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ES_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ETFC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ETFC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ETN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ETN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ETR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ETR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EVRG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EVRG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EXC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EXC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EXPD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EXPD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EXPE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EXPE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/EXR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/EXR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FANG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FANG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FAST_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FAST_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FBHS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FBHS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FCX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FCX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FDX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FDX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FFIV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FFIV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FISV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FISV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FIS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FIS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FITB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FITB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FLIR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FLIR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FLS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FLS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FLT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FLT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FMC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FMC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FOXA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FOXA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FOX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FOX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FRT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FRT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FTI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FTI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FTNT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FTNT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/FTV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/FTV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/F_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/F_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GILD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GILD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GIS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GIS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GLW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GLW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GOOGL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GOOGL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GOOG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GOOG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GPC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GPC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GPN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GPN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GPS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GPS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GRMN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GRMN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/GWW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/GWW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HAL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HAL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HAS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HAS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HBAN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HBAN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HBI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HBI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HCA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HCA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HES_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HES_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HFC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HFC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HIG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HIG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HII_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HII_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HLT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HLT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HOLX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HOLX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HON_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HON_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HPE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HPE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HPQ_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HPQ_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HRB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HRB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HRL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HRL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HSIC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HSIC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HST_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HST_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HSY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HSY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/HUM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/HUM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IBM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IBM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ICE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ICE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IDXX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IDXX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IEX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IEX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IFF_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IFF_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ILMN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ILMN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/INCY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/INCY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/INFO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/INFO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/INTC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/INTC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/INTU_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/INTU_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IPGP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IPGP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IPG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IPG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IQV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IQV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IRM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IRM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ISRG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ISRG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ITW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ITW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/IVZ_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/IVZ_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/JBHT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/JBHT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/JCI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/JCI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/JKHY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/JKHY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/JNJ_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/JNJ_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/JNPR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/JNPR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/JPM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/JPM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/J_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/J_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KEYS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KEYS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KEY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KEY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KHC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KHC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KIM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KIM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KLAC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KLAC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KMB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KMB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KMI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KMI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KMX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KMX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KSS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KSS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/KSU_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/KSU_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/K_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/K_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LDOS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LDOS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LEG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LEG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LEN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LEN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LHX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LHX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LH_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LH_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LIN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LIN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LKQ_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LKQ_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LLY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LLY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LMT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LMT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LNC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LNC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LNT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LNT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LOW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LOW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LRCX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LRCX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LUV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LUV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LVS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LVS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LYB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LYB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/LYV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/LYV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/L_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/L_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MAA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MAA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MAR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MAR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MAS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MAS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MCD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MCD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MCHP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MCHP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MCK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MCK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MCO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MCO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MDLZ_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MDLZ_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MDT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MDT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MET_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MET_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MGM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MGM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MHK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MHK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MKC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MKC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MKTX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MKTX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MLM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MLM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MMC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MMC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MMM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MMM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MNST_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MNST_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MOS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MOS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MPC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MPC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MRK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MRK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MRO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MRO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MSCI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MSCI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MSFT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MSFT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MSI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MSI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MTB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MTB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MTD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MTD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MU_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MU_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MXIM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MXIM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/MYL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/MYL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NBL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NBL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NCLH_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NCLH_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NDAQ_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NDAQ_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NEE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NEE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NEM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NEM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NFLX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NFLX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NKE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NKE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NLOK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NLOK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NLSN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NLSN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NOC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NOC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NOV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NOV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NOW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NOW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NRG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NRG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NSC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NSC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NTAP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NTAP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NTRS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NTRS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NUE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NUE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NVDA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NVDA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NVR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NVR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NWL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NWL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NWSA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NWSA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/NWS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/NWS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ODFL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ODFL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/OKE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/OKE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/OMC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/OMC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ORCL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ORCL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ORLY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ORLY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/OTIS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/OTIS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/OXY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/OXY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/O_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/O_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PAYC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PAYC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PAYX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PAYX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PBCT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PBCT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PCAR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PCAR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PEAK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PEAK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PEG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PEG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PEP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PEP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PFE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PFE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PFG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PFG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PGR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PGR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PHM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PHM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PH_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PH_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PKG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PKG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PKI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PKI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PLD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PLD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PNC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PNC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PNR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PNR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PNW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PNW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PPG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PPG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PPL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PPL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PRGO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PRGO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PRU_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PRU_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PSA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PSA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PSX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PSX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PVH_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PVH_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PWR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PWR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PXD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PXD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/PYPL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/PYPL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/QCOM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/QCOM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/QRVO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/QRVO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/RCL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/RCL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/REGN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/REGN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/REG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/REG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/RE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/RE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/RF_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/RF_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/RHI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/RHI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/RJF_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/RJF_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/RL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/RL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/RMD_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/RMD_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ROK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ROK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ROL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ROL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ROP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ROP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ROST_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ROST_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/RSG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/RSG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/RTX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/RTX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SBAC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SBAC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SBUX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SBUX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SCHW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SCHW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SEE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SEE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SHW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SHW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SIVB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SIVB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SJM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SJM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SLB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SLB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SLG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SLG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SNA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SNA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SNPS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SNPS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SPGI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SPGI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SPG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SPG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SRE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SRE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/STE_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/STE_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/STT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/STT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/STX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/STX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/STZ_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/STZ_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SWKS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SWKS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SWK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SWK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SYF_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SYF_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SYK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SYK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/SYY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/SYY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TAP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TAP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TDG_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TDG_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TDY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TDY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TEL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TEL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TFC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TFC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TFX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TFX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TGT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TGT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TIF_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TIF_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TJX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TJX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TMO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TMO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TMUS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TMUS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TPR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TPR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TROW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TROW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TRV_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TRV_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TSCO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TSCO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TSN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TSN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TTWO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TTWO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TWTR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TWTR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TXN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TXN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TXT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TXT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/TYL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/TYL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/T_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/T_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/UAA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/UAA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/UAL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/UAL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/UA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/UA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/UDR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/UDR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/UHS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/UHS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ULTA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ULTA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/UNH_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/UNH_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/UNM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/UNM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/UNP_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/UNP_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/UPS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/UPS_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/URI_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/URI_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/USB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/USB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VAR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VAR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VFC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VFC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VIAC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VIAC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VLO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VLO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VMC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VMC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VNO_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VNO_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VRSK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VRSK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VRSN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VRSN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VRTX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VRTX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VTR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VTR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/VZ_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/VZ_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/V_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/V_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WAB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WAB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WAT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WAT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WBA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WBA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WDC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WDC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WEC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WEC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WELL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WELL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WFC_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WFC_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WHR_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WHR_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WLTW_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WLTW_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WMB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WMB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WMT_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WMT_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WRB_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WRB_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WRK_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WRK_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WST_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WST_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WU_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WU_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WYNN_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WYNN_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/WY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/WY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/XEL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/XEL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/XLNX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/XLNX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/XOM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/XOM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/XRAY_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/XRAY_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/XRX_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/XRX_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/XYL_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/XYL_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/YUM_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/YUM_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ZBH_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ZBH_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ZBRA_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ZBRA_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ZION_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ZION_HDCF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DCF/ZTS_HDCF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/DCF/ZTS_HDCF.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,7 +873,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596738867891</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Imported Server">
+      <created>1596739334976</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1596739334976</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -387,7 +894,8 @@
     <MESSAGE value="Corrected paths for importing modules" />
     <MESSAGE value="Corrected paths for reading local files" />
     <MESSAGE value="Pickle read protocol changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pickle read protocol changed" />
+    <MESSAGE value="Imported Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imported Server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1596392831013">
@@ -430,46 +938,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#navbar/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596489064817" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1596738867084">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1596751478945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596738867083" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596751478945" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1596734390295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596734390295" />
-    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1596738879990">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1596751357295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.bottom/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596738879990" />
-    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1596738879990">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596751357295" />
+    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1596751357295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.center/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596738879990" />
-    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1596738879990">
+    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596751357295" />
+    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1596751357295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.left/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596738879990" />
-    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1596738879990">
+    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596751357295" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1596751357295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.right/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596738879990" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596751357295" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1596731882230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596731882230" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596738870867">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596739350792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596738870867" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596739350792" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596735351945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
