@@ -6,7 +6,7 @@ import dash_html_components as html
 
 #Functions
 from backend.ChartPlotter import *
-from SPYGrab import *
+from backend.SPYGrab import *
 from backend.navbar import navbar
 #App
 from app import app

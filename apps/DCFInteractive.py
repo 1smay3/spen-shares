@@ -13,7 +13,7 @@ from backend.SPYGrab import *
 from settings import DATA_ROOT
 #App and components
 from app import app
-from navbar import navbar
+from backend.navbar import navbar
 
 
 #Define parts of page
