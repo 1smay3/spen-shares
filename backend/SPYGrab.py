@@ -17,7 +17,7 @@ def loadspycon():
     SPYConstituents.remove('FRC')
     return SPYConstituents
 
-loadspycon()
+
 
 def SPYConstituentsDictionarynames(key1, key2):
     

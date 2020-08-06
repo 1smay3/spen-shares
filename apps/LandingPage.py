@@ -9,8 +9,8 @@ DCF_card_content = [
     dbc.CardBody(
         [
             html.P(
-                "Some quick example text to build on the card title and "
-                "make up the bulk of the card's content.",
+                "Historical estimation of an intrinsic value for all S&P500 companies "
+                "using discounted cash flows (DCF) analysis",
                 className="card-text",
             ),
         dbc.Button("DCF", color="primary", href="/DCF")
@@ -46,13 +46,57 @@ PB_card_content = [
     ),
 ]
 
+FCA_card_content = [
+    dbc.CardHeader("FCA Short Analyser"),
+    dbc.CardImg(src="../assets/images/short.svg", top=True, title="Icon made by Freepik from www.flaticon.com", className="card-img"),
+    dbc.CardBody(
+        [
+                        html.P(
+                "Analysis of FCA short declerations for publically listed companies in the UK. Includes entry and exit points aswell"
+                "as performance analysis of managers shorts",
+                className="card-text",
+            ),
+        dbc.Button("FCA Short Analyser", color="primary", href="/FCA-Short")
+        ]
+    ),
+]
+
+valuable_market_monitors = [
+    dbc.CardHeader("Market Monitors"),
+    dbc.CardImg(src="../assets/images/market-monitor.svg", top=True, title="Icon made by Freepik from www.flaticon.com", className="card-img"),
+    dbc.CardBody(
+        [
+                        html.P(
+                "Popular, but sometimes under-represented metrics including Shiller CAPE and the Buffet Indicator ",
+                className="card-text",
+            ),
+        dbc.Button("Market Monitors", color="primary", href="/market-monitors")
+        ]
+    ),
+]
+
+Basic_Algo = [
+    dbc.CardHeader("Basic Algorithm"),
+    dbc.CardImg(src="../assets/images/algorithm.svg", top=True, title="Icon made by Smashicons from www.flaticon.com", className="card-img"),
+    dbc.CardBody(
+        [
+                        html.P(
+                "Very basic in-house algorithm with transparent parameters and full historic performance",
+                className="card-text",
+            ),
+        dbc.Button("Algorithm", color="primary", href="/algo")
+        ]
+    ),
+]
+
 padding = html.Div(
     [
         dbc.Row(dbc.Col(html.Div("")))])
 
 upper_card_deck = dbc.CardDeck([dbc.Card(PE_card_content),dbc.Card(DCF_card_content),dbc.Card(PB_card_content)], style={'margin':20})
+lower_card_deck = dbc.CardDeck([dbc.Card(FCA_card_content),dbc.Card(valuable_market_monitors),dbc.Card(Basic_Algo)], style={'margin':20})
 #lower_card_deck =
-layout = html.Div([navbar,padding,upper_card_deck])
+layout = html.Div([navbar,padding,upper_card_deck, lower_card_deck])
 
 
 

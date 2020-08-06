@@ -34,7 +34,7 @@ FirmSelector = html.Div(
 
 #Generate df for plotting and drop index to allow easier charting
 dfWide= pd.read_csv(DATA_ROOT + '/DCF/MMM_HDCF.csv')
-print(DATA_ROOT + '/DCF/MMM_HDCF.csv')
+
 #Create list of stocks for dropdown
 
 def get_options(list_stocks):
@@ -51,17 +51,12 @@ ChangeFig = deviationPlot("DCF Deviation from Stock Price", dfWide)
 topChart = html.Div(className="dashboard-chart",
     children=[
         dcc.Graph(id='PricesChart', figure=StockDCFfig)
-
-
     ])
 
 bottomchart = html.Div(className="dashboard-chart",
     children=[
         dcc.Graph(id='DCFChart', figure=ChangeFig)
-
-
     ])
-
 
 # EXTRACTED LAYOUT VERSION - CONDENSE WITH ASSIGNMENTS ABOVE LATER
 

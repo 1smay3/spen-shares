@@ -15,7 +15,11 @@ app.layout = html.Div([
     html.Div(id='page-content')
 ])
 
-PB_page_layout = html.Div([navbar, html.H1('PB')])
+PB_page_layout = html.Div([navbar, html.H1('Work In Progress - PB')])
+FCA_page_layout = html.Div([navbar, html.H1('Work In Progress - FCA')])
+MarketMonitor_page_layout = html.Div([navbar, html.H1('Work In Progress - MM')])
+Algo_page_layout = html.Div([navbar, html.H1('Work In Progress - ALGO')])
+
 
 # Update the index
 @app.callback(Output('page-content', 'children'), [Input('url', 'pathname')])
@@ -26,6 +30,12 @@ def display_page(pathname):
         return PEInteractive.layout
     elif pathname == '/PB':
         return PB_page_layout
+    elif pathname == '/market-monitors':
+        return MarketMonitor_page_layout
+    elif pathname == '/FCA-Short':
+        return FCA_page_layout
+    elif pathname == '/algo':
+        return Algo_page_layout
     else:
         return LandingPage.layout
 
