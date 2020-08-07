@@ -194,12 +194,12 @@ def stockPEPRICEplot(title, dataframe, ticker):
 
     # Left hand side data 1
     fig.add_trace(
-        go.Scatter(x=dataframe['index'], y=dataframe['close'], name="Close Price"),
+        go.Scatter(x=dataframe['date'], y=dataframe[ticker], name="Close Price"),
         secondary_y=False,
     )
     # Left hand side data 2
     fig.add_trace(
-        go.Scatter(x=dataframe['index'], y=dataframe['PE Ratio'], name="P/E Ratio"),
+        go.Scatter(x=dataframe['date'], y=dataframe['PE Ratio'], name="P/E Ratio"),
         secondary_y=True,
     )
 
@@ -237,7 +237,7 @@ def stockPEPRICEplot(title, dataframe, ticker):
     )
 
     # Update default range for valid data
-    inital_range = validrangefinder(dataframe, 'PE Ratio', 'index')
+    inital_range = validrangefinder(dataframe, 'PE Ratio', 'date')
     fig['layout']['xaxis'].update(range=inital_range)
 
     # Set y-axes titles
@@ -258,7 +258,7 @@ def stockEPSplot(title, dataframe, ticker):
 
     # Left hand side data 1
     fig.add_trace(
-        go.Scatter(x=dataframe['index'], y=dataframe['EPS'], name="Close Price"),
+        go.Scatter(x=dataframe['date'], y=dataframe[ticker+'_EPS'], name="Close Price"),
         secondary_y=False,
     )
 
@@ -296,11 +296,11 @@ def stockEPSplot(title, dataframe, ticker):
     )
 
     # Update default range for valid data
-    inital_range = validrangefinder(dataframe, 'PE Ratio', 'index')
+    inital_range = validrangefinder(dataframe, 'PE Ratio', 'date')
     fig['layout']['xaxis'].update(range=inital_range)
 
     # Set y-axes titles
-    fig.update_yaxes(title_text="<b>EPS</b>", secondary_y=False)
+    fig.update_yaxes(title_text="<b>EPS ($)</b>", secondary_y=False)
 
 
     # Auto Rescale y axis

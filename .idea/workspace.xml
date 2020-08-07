@@ -2,11 +2,500 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/spenshares.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/PEInteractive.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/PEInteractive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ChartPlotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ChartPlotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/A.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AAL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AAP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AAPL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ABBV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ABC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ABMD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ABT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ACN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ADBE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ADI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ADM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ADP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ADS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ADSK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AEE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AEP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AES.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AFL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AIG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AIV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AIZ.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AJG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AKAM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ALB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ALGN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ALK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ALL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ALLE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ALXN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AMAT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AMCR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AMD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AME.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AMGN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AMP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AMT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AMZN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ANET.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ANSS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ANTM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AON.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AOS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/APA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/APD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/APH.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/APTV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ARE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ATO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ATVI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AVB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AVGO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AVY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AWK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AXP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/AZO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BAC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BAX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BBY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BDX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BEN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BIIB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BKNG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BKR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BLK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BLL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BMY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BSX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BWA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/BXP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/C.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CAG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CAH.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CAT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CBOE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CBRE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CCI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CDNS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CDW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CERN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CF.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CFG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CHD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CHRW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CHTR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CINF.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CLX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CMA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CMCSA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CME.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CMG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CMI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CMS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CNC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CNP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/COF.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/COG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/COO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/COST.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/COTY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CPB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CPRT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CRM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CSCO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CSX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CTAS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CTL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CTSH.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CTVA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CTXS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CVS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CVX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/CXO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/D.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DFS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DGX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DHI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DHR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DIS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DISCA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DISCK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DISH.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DLR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DLTR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DOV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DOW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DPZ.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DRE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DRI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DTE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DUK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DVA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DVN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DXC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/DXCM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EBAY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ECL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ED.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EFX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EIX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EMN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EMR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EOG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EQIX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EQR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ES.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ESS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ETFC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ETN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ETR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EVRG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EXC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EXPD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EXPE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/EXR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/F.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FANG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FAST.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FBHS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FCX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FDX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FFIV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FIS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FISV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FITB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FLIR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FLS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FLT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FMC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FOX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FOXA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FRT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FTI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FTNT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/FTV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GILD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GLW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GOOG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GOOGL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GPC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GPN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GPS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GRMN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/GWW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HAL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HAS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HBAN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HBI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HCA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HES.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HFC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HIG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HII.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HLT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HOG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HOLX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HON.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HPE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HPQ.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HRB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HRL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HSIC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HST.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HSY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/HUM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IBM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ICE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IDXX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IEX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IFF.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ILMN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/INCY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/INFO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/INTC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/INTU.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IPG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IPGP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IQV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IRM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ISRG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ITW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/IVZ.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/J.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/JBHT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/JCI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/JKHY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/JNJ.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/JNPR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/JPM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/JWN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/K.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KEY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KEYS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KHC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KIM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KLAC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KMB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KMI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KMX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KSS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/KSU.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/L.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LDOS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LEG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LEN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LH.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LHX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LIN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LKQ.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LLY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LMT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LNC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LNT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LOW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LRCX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LUV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LVS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LYB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/LYV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MAA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MAR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MAS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MCD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MCHP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MCK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MCO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MDLZ.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MDT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MET.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MGM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MHK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MKC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MKTX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MLM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MMC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MMM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MNST.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MOS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MPC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MRK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MRO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MSCI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MSFT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MSI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MTB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MTD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MU.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MXIM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/MYL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NBL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NCLH.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NDAQ.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NEE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NEM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NFLX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NKE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NLOK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NLSN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NOC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NOV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NOW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NRG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NSC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NTAP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NTRS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NUE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NVDA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NVR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NWL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NWS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/NWSA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ODFL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/OKE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/OMC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ORCL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ORLY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/OXY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PAYC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PAYX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PBCT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PCAR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PEAK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PEG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PFE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PFG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PGR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PH.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PHM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PKG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PKI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PLD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PNC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PNR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PNW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PPG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PPL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PRGO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PRU.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PSA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PSX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PVH.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PWR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PXD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/PYPL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/QCOM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/QRVO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/RCL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/RE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/REG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/REGN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/RF.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/RHI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/RJF.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/RL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/RMD.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ROK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ROL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ROP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ROST.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/RSG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/RTX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SBAC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SBUX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SCHW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SEE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SHW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SIVB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SJM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SLB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SLG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SNA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SNPS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SPG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SPGI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SRE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/STE.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/STT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/STX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/STZ.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SWK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SWKS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SYF.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SYK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/SYY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/T.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TAP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TDG.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TEL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TFC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TFX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TGT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TIF.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TJX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TMO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TPR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TROW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TRV.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TSCO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TSN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TTWO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TWTR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TXN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/TXT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/UA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/UAA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/UAL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/UDR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/UHS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ULTA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/UNH.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/UNM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/UNP.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/UPS.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/URI.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/USB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/V.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VAR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VFC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VIAC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VLO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VMC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VNO.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VRSK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VRSN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VRTX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VTR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/VZ.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WAB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WAT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WDC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WEC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WELL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WFC.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WHR.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WLTW.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WMB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WMT.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WRB.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WRK.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WST.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WU.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/WYNN.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/XEL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/XLNX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/XOM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/XRAY.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/XRX.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/XYL.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/YUM.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ZBH.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ZBRA.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ZION.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PERATIO/ZTS.pkl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +521,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
@@ -41,8 +531,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets" />
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets\images" />
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets" />
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\data\SPYConstitituents" />
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\backend" />
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\apps" />
@@ -203,10 +693,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.DCFInteractive" />
-      <item itemvalue="Python.SPYGrab (1)" />
-      <item itemvalue="Python.settings" />
-      <item itemvalue="Python.index" />
       <item itemvalue="Python.PEInteractive" />
+      <item itemvalue="Python.SPYGrab (1)" />
+      <item itemvalue="Python.SPYGrab" />
+      <item itemvalue="Python.index" />
+      <item itemvalue="Python.settings" />
     </list>
     <recent_temporary>
       <list>
@@ -397,7 +888,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596753797334</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added favicon and app title for browser tab information">
+      <created>1596754832851</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1596754832851</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -415,7 +913,8 @@
     <MESSAGE value="Imported Server" />
     <MESSAGE value="Data corrected with sense check multiple on dcf value relative to price" />
     <MESSAGE value="Added new modules for later in project with routing and navbar interactions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new modules for later in project with routing and navbar interactions" />
+    <MESSAGE value="Added favicon and app title for browser tab information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added favicon and app title for browser tab information" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1596392831013">
@@ -458,46 +957,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#navbar/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596489064817" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1596753796223">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1596811277266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596753796223" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596811277266" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1596734390295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596734390295" />
-    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1596754813665">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1596811049814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.bottom/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596754813665" />
-    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1596754813665">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596811049814" />
+    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1596811049813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.center/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596754813665" />
-    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1596754813665">
+    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596811049813" />
+    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1596811049813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.left/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596754813665" />
-    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1596754813665">
+    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596811049813" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1596811049814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.right/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596754813665" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596811049814" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1596731882230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596731882230" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596753798666">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596754833865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596753798666" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596754833865" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596735351945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

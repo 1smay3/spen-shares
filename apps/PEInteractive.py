@@ -29,9 +29,9 @@ FirmSelector = html.Div(
 # Make PE charts
 
 #Generate df for plotting and drop index to allow easier charting
-with open(DATA_ROOT + '/PERATIO/MMM.pkl', 'rb') as handle:
-        priceEarningsDF = pickle.load(handle)
-priceEarningsDF.reset_index(inplace=True)
+priceEarningsDF = pd.read_csv(DATA_ROOT + '/PERATIO/MMM_HPE.csv')
+
+
 
 #Create list of stocks for dropdown
 
@@ -84,9 +84,7 @@ layout = [navbar,html.Div(
 
 def update_chart(value):
     companySelected = value
-    with open(DATA_ROOT + "/PERATIO/" + companySelected + ".pkl", 'rb') as handle:
-        newDF = pickle.load(handle)
-    newDF.reset_index(inplace=True)
+    newDF = pd.read_csv(DATA_ROOT + "/PERATIO/" + companySelected + "_HPE.csv")
     figure = stockPEPRICEplot(" Daily Price and P/E Ratio", newDF, companySelected)
     return figure
 
@@ -97,9 +95,7 @@ def update_chart(value):
 
 def update_chart(value):
     companySelected = value
-    with open(DATA_ROOT + "/PERATIO/" + companySelected + ".pkl", 'rb') as handle:
-        newDF = pickle.load(handle)
-    newDF.reset_index(inplace=True)
+    newDF = pd.read_csv(DATA_ROOT + "/PERATIO/" + companySelected + "_HPE.csv")
     figure = stockEPSplot("Daily Earnings Per Share (EPS)", newDF, companySelected)
     return figure
 
