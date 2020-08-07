@@ -44,7 +44,7 @@ def get_options(list_stocks):
 
 #plot charts
 StockPBfig = stockPB_PRICEplot(" Daily Price and P/B Ratio", priceBookDF, 'MMM')
-#EPSfig = stockEPSplot(" Daily Price and P/B Ratio", priceBookDF, 'MMM')
+TATLSHEchart = stockCACLPICEplot(" Total Asset, Liabilities & Shareholders Equity", priceBookDF, 'MMM')
 
 topChart = html.Div(className="dashboard-chart",
     children=[
@@ -53,12 +53,12 @@ topChart = html.Div(className="dashboard-chart",
 
     ])
 
-#bottomchart = html.Div(className="dashboard-chart",
-    #children=[
-        #dcc.Graph(id='CACL Chart', figure=CALCChart)
+bottomchart = html.Div(className="dashboard-chart",
+    children=[
+        dcc.Graph(id='TATLSHE Chart', figure=TATLSHEchart)
 
 
-    #])
+    ])
 
 
 # EXTRACTED LAYOUT VERSION - CONDENSE WITH ASSIGNMENTS ABOVE LATER
@@ -70,7 +70,7 @@ layout = [navbar,html.Div(
                 dbc.Col(FirmSelector, width=2, className='dashboard-LHS-columns'),
                 dbc.Col([
                     html.Div(dbc.Row(topChart)),
-                    #html.Div(dbc.Row(bottomchart))
+                    html.Div(dbc.Row(bottomchart))
                     ], width=10, className='dashboard-RHS-columns'
 
                 )]
@@ -88,16 +88,16 @@ def update_chart(value):
     figure = stockPB_PRICEplot(" Daily Price and P/B Ratio", newDF, companySelected)
     return figure
 
-# # Update deviation chart
-# @app.callback(
-#     dash.dependencies.Output('EPS Chart', 'figure'),
-#     [dash.dependencies.Input('stockselector', 'value')])
-#
-# def update_chart(value):
-#     companySelected = value
-#     newDF = pd.read_csv(DATA_ROOT + "/PERATIO/" + companySelected + "_HPE.csv")
-#     figure = stockEPSplot("Daily Earnings Per Share (EPS)", newDF, companySelected)
-#     return figure
+# Update deviation chart
+@app.callback(
+    dash.dependencies.Output('TATLSHE Chart', 'figure'),
+    [dash.dependencies.Input('stockselector', 'value')])
+
+def update_chart(value):
+    companySelected = value
+    newDF = pd.read_csv(DATA_ROOT + "/PBRATIO/" + companySelected + "_HPB.csv")
+    figure = stockCACLPICEplot("Total Assets, Liabilities & Shareholders Equity", newDF, companySelected)
+    return figure
 
 
 
