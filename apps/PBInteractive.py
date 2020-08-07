@@ -12,13 +12,20 @@ from backend.navbar import navbar
 from app import app
 from settings import DATA_ROOT
 
-#Define parts of page
+#Generate df for plotting and drop index to allow easier charting
+priceBookDF = pd.read_csv(DATA_ROOT + '/PBRATIO/MMM_HPB.csv')
+
+#Get update date
+data_update_date = priceBookDF['date'].iloc[-1]
+
+
 # Dropdown Selector
 FirmSelector = html.Div(
                              children=[
                                  html.H2('Historical P/B Ratio'),
                                  html.P('Visualising P/B Ratio and its relationship to price'),
                                  html.P('Pick stocks from the dropdown below to update the charts.'),
+                                 html.P('Data as of: ' + data_update_date),
                                  html.Div(
 
     dcc.Dropdown(id='stockselector', options=getspydictionary(),
@@ -28,8 +35,7 @@ FirmSelector = html.Div(
 
 # Make PE charts
 
-#Generate df for plotting and drop index to allow easier charting
-priceBookDF = pd.read_csv(DATA_ROOT + '/PBRATIO/MMM_HPB.csv')
+
 
 
 

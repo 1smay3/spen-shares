@@ -13,12 +13,20 @@ from app import app
 from settings import DATA_ROOT
 
 #Define parts of page
+
+#Generate df for plotting and drop index to allow easier charting
+priceEarningsDF = pd.read_csv(DATA_ROOT + '/PERATIO/MMM_HPE.csv')
+
+#Get update date
+data_update_date = priceEarningsDF['date'].iloc[-1]
+
 # Dropdown Selector
 FirmSelector = html.Div(
                              children=[
                                  html.H2('Historical P/E Ratio'),
                                  html.P('Visualising P/E Ratio and its relationship to price'),
                                  html.P('Pick stocks from the dropdown below to update the charts.'),
+                                 html.P('Data as of: ' + data_update_date),
                                  html.Div(
 
     dcc.Dropdown(id='stockselector', options=getspydictionary(),
@@ -28,8 +36,7 @@ FirmSelector = html.Div(
 
 # Make PE charts
 
-#Generate df for plotting and drop index to allow easier charting
-priceEarningsDF = pd.read_csv(DATA_ROOT + '/PERATIO/MMM_HPE.csv')
+
 
 
 

@@ -1,37 +1,64 @@
 import pandas as pd
 from settings import DATA_ROOT
 import requests
-import datetime
+import re
 # Use request otherwise get HTTP 403 error
 
 url = "https://www.fca.org.uk/publication/data/short-positions-daily-update.xls"
-req = requests.get(url).content
+data_request = requests.get(url).content
 
-# Sheet name is variable, changing everyday to include the most recent update date.
-# Hence, pass as variable.
+# Just take first sheet as newest data
+raw_shorts = pd.ExcelFile(data_request)
+raw_shorts_sheetnames = raw_shorts.sheet_names
 
-today = datetime.datetime.today()
-# Working day offset
-offset = max(1, (today.weekday() + 6) % 7 - 3)
+# Dataframe current exposure
+CurrentDisclosures = "Current Disclosures"
+HistoricalDisclosures="Historical Disclosures"
 
-timedelta = datetime.timedelta(offset)
-most_recent = today #- timedelta
+# Convert to list to be data and not where it is located in physical memory. [0] Gets first value in list, should be only value
+# unless FCA change.
+CurrentSheetList = list(s for s in raw_shorts_sheetnames if CurrentDisclosures in s)[0]
+HistoricalSheetList = list(s for s in raw_shorts_sheetnames if HistoricalDisclosures in s)[0]
 
-relevant_date = most_recent.strftime('%d.%m.%Y')
+# Load into dataframe
+CurrentDisclosuresExcel = pd.read_excel(data_request, sheet_name=CurrentSheetList)
 
-first_sheet = str(relevant_date) + " Current Disclosures "
+# Refine current disclosures
+CurrentDisclosuresReindexed = CurrentDisclosuresExcel.set_index('Name of Share Issuer')
 
-raw_shorts = pd.read_excel(req)
-raw_shorts_reindexed = raw_shorts.set_index('Name of Share Issuer')
+# Group by firm which is being shorted, and sum to see total short exposure
+SummedShortDuplicates = CurrentDisclosuresReindexed.groupby(['Name of Share Issuer'])['Net Short Position (%)'].transform('sum')
+
+# The above transformations turns it into a series, so change back to df
+SummedShortDuplicatesDF = pd.DataFrame(SummedShortDuplicates, index=CurrentDisclosuresExcel['Name of Share Issuer'])
+
+# Delete duplicates as summing process keeps all share issuer entries
+SummedShortDF = SummedShortDuplicatesDF.drop_duplicates()
+SummedShortDFSorted = SummedShortDF.sort_values(by=['Net Short Position (%)'], ascending=False)
+
+# Use sheetname as filename suffix
+
+save_down = DATA_ROOT+"/FCA/FCASHORTS_"+str(CurrentSheetList.replace('.', '-'))+".csv"
+SummedShortDFSorted.to_csv(save_down)
 
 
-#Group by firm which is being shorted, and sum to see total short exposure
-summed_short_duplicates = raw_shorts_reindexed.groupby(['Name of Share Issuer'])['Net Short Position (%)'].transform('sum')
-#The above transformations turns it into a series, so change back to df
-ssd_df = pd.DataFrame(summed_short_duplicates, index=raw_shorts['Name of Share Issuer'])
-#Delete duplicates as summing process keeps all share issuer entries
-summed_short = ssd_df.drop_duplicates()
-summed_short_sorted = summed_short.sort_values(by=['Net Short Position (%)'], ascending=False)
-#Change . in date to - so windows doesnt think its a filetype
-save_down = DATA_ROOT+"/FCA/FCASHORTS_"+str(relevant_date.replace('.', '-'))+".csv"
-summed_short_sorted.to_csv(save_down)
+#
+# today = datetime.datetime.today()
+# # Working day offset
+# offset = max(1, (today.weekday() + 6) % 7 - 3)
+#
+# timedelta = datetime.timedelta(offset)
+# most_recent = today #- timedelta
+#
+# relevant_date = most_recent.strftime('%d.%m.%Y')
+#
+# first_sheet = str(relevant_date) + " Current Disclosures "
+#
+#
+#
+#
+#
+#
+
+
+

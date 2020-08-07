@@ -15,6 +15,12 @@ from settings import DATA_ROOT
 from app import app
 from backend.navbar import navbar
 
+#Generate df for plotting and drop index to allow easier charting
+dfWide= pd.read_csv(DATA_ROOT + '/DCF/MMM_HDCF.csv')
+
+#Get update date
+data_update_date = dfWide['date'].iloc[-1]
+
 
 #Define parts of page
 # Dropdown Selector
@@ -23,17 +29,17 @@ FirmSelector = html.Div(
                                  html.H2('DCF Estimation'),
                                  html.P('Visualising DCF estimation series'),
                                  html.P('Pick stocks from the dropdown below to update the charts.'),
+                                 html.P('Data as of: ' + data_update_date),
                                  html.Div(
 
     dcc.Dropdown(id='stockselector', options=getspydictionary(),
                                                       multi=False, value='MMM'
                                                             )
-                                 )])
+                                 )
+                             ])
 
 # Make PE charts
 
-#Generate df for plotting and drop index to allow easier charting
-dfWide= pd.read_csv(DATA_ROOT + '/DCF/MMM_HDCF.csv')
 
 #Create list of stocks for dropdown
 
@@ -59,6 +65,9 @@ bottomchart = html.Div(className="dashboard-chart",
     ])
 
 # EXTRACTED LAYOUT VERSION - CONDENSE WITH ASSIGNMENTS ABOVE LATER
+
+
+
 
 layout = [navbar,html.Div(
     [
