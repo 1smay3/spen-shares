@@ -2,509 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/FCAInteractive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/FCAShort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/FCA/FCASHORTS_07-08-2020.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/PBInteractive.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/PBInteractive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ChartPlotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ChartPlotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AAL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AAL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AAPL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AAPL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AAP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AAP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ABBV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ABBV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ABC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ABC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ABMD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ABMD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ABT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ABT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ACN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ACN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ADBE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ADBE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ADI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ADI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ADM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ADM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ADP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ADP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ADSK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ADSK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AEE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AEE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AEP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AEP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AES_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AES_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AFL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AFL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AIG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AIG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AIV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AIV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AIZ_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AIZ_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AJG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AJG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AKAM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AKAM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ALB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ALB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ALGN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ALGN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ALK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ALK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ALLE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ALLE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ALL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ALL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ALXN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ALXN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AMAT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AMAT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AMCR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AMCR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AMD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AMD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AME_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AME_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AMGN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AMGN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AMP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AMP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AMT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AMT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AMZN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AMZN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ANET_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ANET_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ANSS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ANSS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ANTM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ANTM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AON_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AON_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AOS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AOS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/APA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/APA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/APD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/APD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/APH_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/APH_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/APTV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/APTV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ARE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ARE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ATO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ATO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ATVI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ATVI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AVB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AVB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AVGO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AVGO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AVY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AVY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AWK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AWK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AXP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AXP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/AZO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/AZO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/A_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/A_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BAC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BAC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BAX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BAX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BBY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BBY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BDX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BDX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BEN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BEN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BIIB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BIIB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BIO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BIO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BKNG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BKNG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BKR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BKR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BLK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BLK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BLL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BLL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BMY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BMY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BSX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BSX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BWA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BWA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/BXP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/BXP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CAG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CAG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CAH_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CAH_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CAT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CAT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CBOE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CBOE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CBRE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CBRE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CCI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CCI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CCL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CCL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CDNS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CDNS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CDW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CDW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CERN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CERN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CFG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CFG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CF_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CF_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CHD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CHD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CHRW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CHRW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CHTR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CHTR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CINF_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CINF_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CLX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CLX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CMA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CMA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CMCSA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CMCSA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CME_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CME_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CMG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CMG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CMI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CMI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CMS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CMS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CNC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CNC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CNP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CNP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/COF_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/COF_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/COG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/COG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/COO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/COO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/COP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/COP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/COST_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/COST_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/COTY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/COTY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CPB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CPB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CPRT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CPRT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CRM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CRM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CSCO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CSCO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CSX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CSX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CTAS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CTAS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CTL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CTL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CTSH_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CTSH_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CTVA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CTVA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CTXS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CTXS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CVS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CVS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CVX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CVX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/CXO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/CXO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/C_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/C_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DAL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DAL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DFS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DFS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DGX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DGX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DHI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DHI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DHR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DHR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DISCA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DISCA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DISCK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DISCK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DISH_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DISH_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DIS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DIS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DLR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DLR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DLTR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DLTR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DOV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DOV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DOW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DOW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DPZ_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DPZ_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DRE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DRE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DRI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DRI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DTE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DTE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DUK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DUK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DVA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DVA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DVN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DVN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DXCM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DXCM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/DXC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/DXC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/D_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/D_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EBAY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EBAY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ECL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ECL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ED_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ED_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EFX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EFX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EIX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EIX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EMN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EMN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EMR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EMR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EOG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EOG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EQIX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EQIX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EQR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EQR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ESS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ESS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ES_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ES_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ETFC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ETFC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ETN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ETN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ETR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ETR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EVRG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EVRG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EXC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EXC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EXPD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EXPD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EXPE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EXPE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/EXR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/EXR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FANG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FANG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FAST_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FAST_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FBHS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FBHS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FCX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FCX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FDX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FDX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FFIV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FFIV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FISV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FISV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FIS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FIS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FITB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FITB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FLIR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FLIR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FLS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FLS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FLT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FLT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FMC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FMC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FOXA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FOXA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FOX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FOX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FRT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FRT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FTI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FTI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FTNT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FTNT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/FTV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/FTV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/F_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/F_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GILD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GILD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GIS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GIS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GLW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GLW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GOOGL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GOOGL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GOOG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GOOG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GPC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GPC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GPN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GPN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GPS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GPS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GRMN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GRMN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/GWW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/GWW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HAL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HAL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HAS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HAS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HBAN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HBAN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HBI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HBI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HCA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HCA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HES_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HES_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HFC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HFC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HIG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HIG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HII_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HII_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HLT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HLT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HOLX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HOLX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HON_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HON_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HPE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HPE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HPQ_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HPQ_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HRB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HRB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HRL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HRL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HSIC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HSIC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HST_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HST_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HSY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HSY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/HUM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/HUM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IBM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IBM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ICE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ICE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IDXX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IDXX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IEX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IEX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IFF_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IFF_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ILMN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ILMN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/INCY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/INCY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/INFO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/INFO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/INTC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/INTC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/INTU_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/INTU_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IPGP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IPGP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IPG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IPG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IQV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IQV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IRM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IRM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ISRG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ISRG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ITW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ITW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/IVZ_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/IVZ_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/JBHT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/JBHT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/JCI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/JCI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/JKHY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/JKHY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/JNJ_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/JNJ_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/JNPR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/JNPR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/JPM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/JPM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/J_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/J_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KEYS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KEYS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KEY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KEY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KHC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KHC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KIM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KIM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KLAC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KLAC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KMB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KMB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KMI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KMI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KMX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KMX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KSS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KSS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/KSU_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/KSU_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/K_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/K_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LDOS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LDOS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LEG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LEG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LEN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LEN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LHX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LHX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LH_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LH_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LIN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LIN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LKQ_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LKQ_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LLY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LLY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LMT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LMT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LNC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LNC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LNT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LNT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LOW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LOW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LRCX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LRCX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LUV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LUV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LVS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LVS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LYB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LYB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/LYV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/LYV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/L_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/L_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MAA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MAA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MAR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MAR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MAS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MAS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MCD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MCD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MCHP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MCHP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MCK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MCK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MCO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MCO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MDLZ_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MDLZ_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MDT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MDT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MET_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MET_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MGM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MGM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MHK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MHK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MKC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MKC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MKTX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MKTX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MLM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MLM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MMC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MMC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MMM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MMM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MNST_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MNST_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MOS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MOS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MPC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MPC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MRK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MRK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MRO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MRO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MSCI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MSCI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MSFT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MSFT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MSI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MSI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MTB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MTB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MTD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MTD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MU_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MU_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MXIM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MXIM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/MYL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/MYL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NBL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NBL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NCLH_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NCLH_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NDAQ_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NDAQ_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NEE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NEE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NEM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NEM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NFLX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NFLX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NKE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NKE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NLOK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NLOK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NLSN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NLSN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NOC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NOC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NOV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NOV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NOW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NOW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NRG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NRG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NSC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NSC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NTAP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NTAP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NTRS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NTRS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NUE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NUE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NVDA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NVDA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NVR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NVR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NWL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NWL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NWSA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NWSA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/NWS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/NWS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ODFL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ODFL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/OKE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/OKE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/OMC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/OMC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ORCL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ORCL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ORLY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ORLY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/OTIS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/OTIS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/OXY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/OXY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/O_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/O_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PAYC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PAYC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PAYX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PAYX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PBCT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PBCT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PCAR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PCAR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PEAK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PEAK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PEG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PEG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PEP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PEP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PFE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PFE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PFG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PFG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PGR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PGR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PHM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PHM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PH_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PH_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PKG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PKG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PKI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PKI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PLD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PLD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PNC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PNC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PNR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PNR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PNW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PNW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PPG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PPG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PPL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PPL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PRGO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PRGO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PRU_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PRU_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PSA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PSA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PSX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PSX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PVH_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PVH_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PWR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PWR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PXD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PXD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/PYPL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/PYPL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/QCOM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/QCOM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/QRVO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/QRVO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/RCL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/RCL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/REGN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/REGN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/REG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/REG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/RE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/RE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/RF_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/RF_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/RHI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/RHI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/RJF_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/RJF_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/RL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/RL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/RMD_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/RMD_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ROK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ROK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ROL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ROL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ROP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ROP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ROST_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ROST_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/RSG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/RSG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/RTX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/RTX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SBAC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SBAC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SBUX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SBUX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SCHW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SCHW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SEE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SEE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SHW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SHW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SIVB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SIVB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SJM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SJM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SLB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SLB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SLG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SLG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SNA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SNA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SNPS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SNPS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SPGI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SPGI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SPG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SPG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SRE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SRE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/STE_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/STE_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/STT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/STT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/STX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/STX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/STZ_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/STZ_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SWKS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SWKS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SWK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SWK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SYF_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SYF_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SYK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SYK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/SYY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/SYY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TAP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TAP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TDG_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TDG_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TDY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TDY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TEL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TEL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TFC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TFC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TFX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TFX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TGT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TGT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TIF_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TIF_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TJX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TJX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TMO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TMO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TMUS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TMUS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TPR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TPR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TROW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TROW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TRV_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TRV_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TSCO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TSCO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TSN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TSN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TTWO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TTWO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TWTR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TWTR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TXN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TXN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TXT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TXT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/TYL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/TYL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/T_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/T_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/UAA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/UAA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/UAL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/UAL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/UA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/UA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/UDR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/UDR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/UHS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/UHS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ULTA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ULTA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/UNH_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/UNH_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/UNM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/UNM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/UNP_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/UNP_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/UPS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/UPS_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/URI_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/URI_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/USB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/USB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VAR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VAR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VFC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VFC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VIAC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VIAC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VLO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VLO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VMC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VMC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VNO_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VNO_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VRSK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VRSK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VRSN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VRSN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VRTX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VRTX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VTR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VTR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/VZ_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/VZ_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/V_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/V_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WAB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WAB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WAT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WAT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WBA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WBA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WDC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WDC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WEC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WEC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WELL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WELL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WFC_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WFC_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WHR_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WHR_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WLTW_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WLTW_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WMB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WMB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WMT_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WMT_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WRB_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WRB_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WRK_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WRK_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WST_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WST_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WU_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WU_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WYNN_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WYNN_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/WY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/WY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/XEL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/XEL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/XLNX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/XLNX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/XOM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/XOM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/XRAY_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/XRAY_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/XRX_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/XRX_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/XYL_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/XYL_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/YUM_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/YUM_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ZBH_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ZBH_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ZBRA_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ZBRA_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ZION_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ZION_HPB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PBRATIO/ZTS_HPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PBRATIO/ZTS_HPB.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -541,21 +44,21 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets\images" />
-      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets" />
-      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\data\SPYConstitituents" />
-      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\backend" />
-      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\apps" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\backend" />
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\data" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\backend" />
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets\images" />
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\assets" />
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\data\SPYConstitituents" />
+      <recent name="C:\Users\spenc\PycharmProjects\spen-shares\apps" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.index">
-    <configuration name="DCFInteractive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="FCAInteractive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DashWebapge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -567,7 +70,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/DCFInteractive.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/FCAInteractive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FCAShort (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DashWebapge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/FCAShort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FCAShort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DashWebapge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\spenc\PycharmProjects\spen-shares\backend\FCAShort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -589,48 +134,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/PEInteractive.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SPYGrab (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DashWebapge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/SPYGrab.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SPYGrab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DashWebapge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SPYConstitituents" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\spenc\PycharmProjects\spen-shares\backend\SPYGrab.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -681,42 +184,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DashWebapge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/settings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.DCFInteractive" />
       <item itemvalue="Python.PEInteractive" />
-      <item itemvalue="Python.SPYGrab (1)" />
-      <item itemvalue="Python.SPYGrab" />
       <item itemvalue="Python.index" />
-      <item itemvalue="Python.settings" />
+      <item itemvalue="Python.FCAShort" />
+      <item itemvalue="Python.FCAShort (1)" />
+      <item itemvalue="Python.FCAInteractive" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.index" />
+        <item itemvalue="Python.FCAInteractive" />
+        <item itemvalue="Python.FCAShort (1)" />
+        <item itemvalue="Python.FCAShort" />
         <item itemvalue="Python.PEInteractive" />
-        <item itemvalue="Python.settings" />
-        <item itemvalue="Python.DCFInteractive" />
-        <item itemvalue="Python.SPYGrab (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -920,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596816504345</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Completion of PB integration">
+      <created>1596822286415</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1596822286415</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -942,7 +430,8 @@
     <MESSAGE value="Added favicon and app title for browser tab information" />
     <MESSAGE value="Data input and chart functions designed in same way" />
     <MESSAGE value="Start of PB integrated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start of PB integrated" />
+    <MESSAGE value="Completion of PB integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completion of PB integration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1596392831013">
@@ -993,38 +482,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596734390295" />
-    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1596822200607">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1596832425079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.bottom/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596822200607" />
-    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1596822200607">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596832425079" />
+    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1596832425078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.center/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596822200607" />
-    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1596822200607">
+    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596832425078" />
+    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1596832425078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.left/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596822200607" />
-    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1596822200607">
+    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596832425078" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1596832425078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.right/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
-    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596822200607" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596832425078" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1596731882230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596731882230" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596816505809">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596822289846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596816505809" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596822289846" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596735351945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
