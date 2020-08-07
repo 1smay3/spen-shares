@@ -4,7 +4,7 @@ import glob
 import os
 from settings import DATA_ROOT
 import dash_html_components as html
-from navbar import navbar
+from backend.navbar import navbar
 import re
 
 
