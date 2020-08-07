@@ -21,3 +21,7 @@ font-size:20px;
 }
 
 .dashboard-chart { position: relative; top: 0px; left: 0px; width: 100%;  height: 100%; display: block ; padding-top: 0px; padding-bottom: 0px;}
+
+.greennav{
+background-color: #00b300;
+}

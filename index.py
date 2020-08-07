@@ -3,7 +3,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 # Apps and components
-from apps import LandingPage, PEInteractive, DCFInteractive
+from apps import LandingPage, PEInteractive, DCFInteractive, PBInteractive
 from app import app
 from app import server
 
@@ -29,7 +29,7 @@ def display_page(pathname):
     elif pathname == '/PE':
         return PEInteractive.layout
     elif pathname == '/PB':
-        return PB_page_layout
+        return PBInteractive.layout
     elif pathname == '/market-monitors':
         return MarketMonitor_page_layout
     elif pathname == '/FCA-Short':

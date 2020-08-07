@@ -307,3 +307,66 @@ def stockEPSplot(title, dataframe, ticker):
     plt.autoscale(enable=True, tight=True)
 
     return fig
+
+
+def stockPB_PRICEplot(title, dataframe, ticker):
+    # Create figure with secondary y-axis
+    fig = make_subplots(specs=[[{"secondary_y": True}]])
+
+    # Left hand side data 1
+    fig.add_trace(
+        go.Scatter(x=dataframe['date'], y=dataframe[ticker], name="Close Price"),
+        secondary_y=False,
+    )
+    # Left hand side data 2
+    fig.add_trace(
+        go.Scatter(x=dataframe['date'], y=dataframe['PB Ratio'], name="P/B Ratio"),
+        secondary_y=True,
+    )
+
+    # Add figure title
+    fig.update_layout(
+        title_text=title,
+        template='plotly_dark').update_layout(
+        {'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+         'paper_bgcolor': 'rgba(0, 0, 0, 0)'})
+
+    #Show or Hide legend
+    fig.update_layout(legend=dict(
+        orientation="h",
+        yanchor="bottom",
+        y=1.02,
+        xanchor="right",
+        x=1
+    ))
+
+    # Set x-axis title
+    fig.update_xaxes(title_text="Date")
+
+    # Add range slider and buttons
+    fig.update_xaxes(
+        rangeslider_visible=True,
+        rangeselector=dict(bgcolor="#31302f", activecolor ="#46b650",
+            buttons=list([
+                dict(count=1, label="1M", step="month", stepmode="backward"),
+                dict(count=6, label="6M", step="month", stepmode="backward"),
+                dict(count=1, label="YTD", step="year", stepmode="todate"),
+                dict(count=1, label="1Y", step="year", stepmode="backward"),
+                dict(step="all", label="All")
+            ])
+        )
+    )
+
+    # Update default range for valid data
+    inital_range = validrangefinder(dataframe, 'PB Ratio', 'date')
+    fig['layout']['xaxis'].update(range=inital_range)
+
+    # Set y-axes titles
+    fig.update_yaxes(title_text="<b>Close Price($)</b>", secondary_y=False)
+    fig.update_yaxes(title_text="<b>PB Ratio</b>", secondary_y=True)
+
+
+    # Auto Rescale y axis
+    plt.autoscale(enable=True, tight=True)
+
+    return fig
