@@ -18,11 +18,12 @@ file_name_string = ''.join(end_of_file_name)
 #Get slice of 10 char to get date
 latest_update_date = file_name_string[:10]
 
-# Update badge - this can be removed when its mad so its always newest data
+# Update badge - this can be removed when its made so its always newest data
 badge = dbc.Button(
     ["Data as of: " + latest_update_date, dbc.Badge(color="light", className="ml-1")],
     color="primary",
 )
+
 
 
 
