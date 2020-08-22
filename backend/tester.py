@@ -1,10 +1,14 @@
 from backend.YahooAPI import *
 import pandas as pd
+from settings import DATA_ROOT
 
 
-print(YahooStockPrice("GB0007958233","2019-08-20", "2020-08-31"))
-
-SIN_Prices = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/FCAData/GB00B1JQDM80_HFCA.pkl")##
 
 
-print(SIN_Prices)
+ISIN_Shorts = pd.read_pickle(DATA_ROOT + "/FCAData/" + str("GB0007958233") + "_HFCA.pkl")
+print(ISIN_Shorts)
+
+
+ISIN_Shorts.set_index(ISIN_Shorts['Position Date'], inplace=True)
+print(ISIN_Shorts)
+
