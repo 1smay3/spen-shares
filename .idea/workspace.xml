@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -474,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598128346965</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Updated Requirements to only vitals">
+      <created>1598128490937</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1598128490937</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -503,7 +509,8 @@
     <MESSAGE value="FCA added - Add bottom chart of cumulative short volume, reform, and do DATA_ROOT thing" />
     <MESSAGE value="Data update - FCA excluded until made functional" />
     <MESSAGE value="Updated Requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Requirements" />
+    <MESSAGE value="Updated Requirements to only vitals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Requirements to only vitals" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1596392831013">
@@ -550,12 +557,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#navbar/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596489064817" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1598128346050">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1598128490076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="101" key="CommitChangelistDialog2/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596895998414" />
     <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096070975" />
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598128346050" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598128490076" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1598126374900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -596,11 +603,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="747" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598126369537" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1598128425547">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1598128837241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597072211292" />
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598128425547" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598128837241" />
     <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1597073044826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
