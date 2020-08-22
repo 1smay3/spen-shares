@@ -75,13 +75,13 @@ def getspydictionary():
     keys = {"name", "symbol"}
 
     filtered_dict = [{k:v for k, v in i.items() if k in keys} for i in SPYDict]
+
     #rename keys to be comaptible
     for d in filtered_dict:
         d['label'] = d.pop('name')
         d['value'] = d.pop('symbol')
 
     return filtered_dict
-
 
 
 
