@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="">
+    <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="Data update - FCA excluded until made functional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/FCAPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/FCAPlot.py" afterDir="false" />
     </list>
@@ -53,7 +53,7 @@
       <recent name="C:\Users\spenc\PycharmProjects\spen-shares\apps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.index (1)">
+  <component name="RunManager" selected="Python.FCAShort (1)">
     <configuration name="FCAInteractive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DashWebapge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,8 +168,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.index (1)" />
         <item itemvalue="Python.FCAShort (1)" />
+        <item itemvalue="Python.index (1)" />
         <item itemvalue="Python.SPYGrab" />
         <item itemvalue="Python.FCAInteractive" />
         <item itemvalue="Python.FCAPlot" />
@@ -439,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598125418905</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Data update - FCA excluded until made functional">
+      <created>1598126025230</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1598126025230</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -514,44 +521,52 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#navbar/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596489064817" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1598125417861">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1598126375592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="101" key="CommitChangelistDialog2/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596895998414" />
     <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096070975" />
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598125417861" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598126375592" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1598126374900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598126374900" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1596734390295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596734390295" />
-    <state width="1899" height="217" key="GridCell.Tab.0.bottom" timestamp="1598125929421">
+    <state width="1899" height="217" key="GridCell.Tab.0.bottom" timestamp="1598126855100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.bottom/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
     <state width="1899" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096071806" />
-    <state width="1899" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598125929421" />
-    <state width="1899" height="217" key="GridCell.Tab.0.center" timestamp="1598125929421">
+    <state width="1899" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598126855100" />
+    <state width="1899" height="217" key="GridCell.Tab.0.center" timestamp="1598126855100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.center/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
     <state width="1899" height="217" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096071806" />
-    <state width="1899" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598125929421" />
-    <state width="1899" height="217" key="GridCell.Tab.0.left" timestamp="1598125929421">
+    <state width="1899" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598126855100" />
+    <state width="1899" height="217" key="GridCell.Tab.0.left" timestamp="1598126855100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.left/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
     <state width="1899" height="217" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096071806" />
-    <state width="1899" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598125929421" />
-    <state width="1899" height="217" key="GridCell.Tab.0.right" timestamp="1598125929421">
+    <state width="1899" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598126855100" />
+    <state width="1899" height="217" key="GridCell.Tab.0.right" timestamp="1598126855100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.right/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
     <state width="1899" height="217" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096071806" />
-    <state width="1899" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598125929421" />
+    <state width="1899" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598126855100" />
+    <state x="747" y="230" key="RollbackChangesDialog" timestamp="1598126369537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="747" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598126369537" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1598109719267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
