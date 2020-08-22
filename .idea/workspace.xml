@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/FCAPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/FCAPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -461,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598127551065</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Updated Requirements">
+      <created>1598127965897</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1598127965897</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -489,7 +494,8 @@
     <MESSAGE value="Added basic FCA functionality including charting and markers" />
     <MESSAGE value="FCA added - Add bottom chart of cumulative short volume, reform, and do DATA_ROOT thing" />
     <MESSAGE value="Data update - FCA excluded until made functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data update - FCA excluded until made functional" />
+    <MESSAGE value="Updated Requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Requirements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1596392831013">
@@ -536,12 +542,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#navbar/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596489064817" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1598127550142">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1598128248358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="101" key="CommitChangelistDialog2/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596895998414" />
     <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096070975" />
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598127550142" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598128248358" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1598126374900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -591,15 +597,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597073044826" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598127554551">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598127967093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597082051531" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598127554551" />
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598108469696">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598127967093" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598128242515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598108469696" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598128242515" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597091270021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
