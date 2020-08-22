@@ -96,6 +96,5 @@ def getISIN(stockName):
 
     return firm_isin
 
-print(getFCAdictionary())
 
 

@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly.graph_objects as go
+from settings import DATA_ROOT
 
 
 
@@ -7,8 +8,9 @@ import plotly.graph_objects as go
 
 def FCAPlot(ISIN):
     #Import Prices
-    ISIN_Prices = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/YAHOOPRICES/" + str(ISIN) + "_HPRI.pkl")
-    ISIN_Shorts = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/FCAData/" + str(ISIN) + "_HFCA.pkl")
+
+    ISIN_Prices = pd.read_pickle(DATA_ROOT + "/YAHOOPRICES/" + str(ISIN) + "_HPRI.pkl")
+    ISIN_Shorts = pd.read_pickle(DATA_ROOT + "/FCADATA/" + str(ISIN) + "_HFCA.pkl")
 
 
 
