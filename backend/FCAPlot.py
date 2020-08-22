@@ -10,7 +10,7 @@ def FCAPlot(ISIN):
     #Import Prices
 
     ISIN_Prices = pd.read_pickle(DATA_ROOT + "/YAHOOPRICES/" + str(ISIN) + "_HPRI.pkl")
-    ISIN_Shorts = pd.read_pickle(DATA_ROOT + "/FCAData/" + str(ISIN) + "_HFCA.pkl", skipinitialspace=True)
+    ISIN_Shorts = pd.read_pickle(DATA_ROOT + "/FCAData/" + str(ISIN) + "_HFCA.pkl")
 
 
 
