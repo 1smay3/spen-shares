@@ -33,7 +33,7 @@ def display_page(pathname):
     elif pathname == '/market-monitors':
         return MarketMonitor_page_layout
     elif pathname == '/FCA-Short':
-        return FCAInteractive.layout
+        return FCA_page_layout
     elif pathname == '/algo':
         return Algo_page_layout
     else:
