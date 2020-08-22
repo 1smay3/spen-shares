@@ -1,8 +1,6 @@
-from data.YAHOOPRICES import *
 import pandas as pd
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-import plotly.express as px
+
 
 
 # TEST WITH ISIN
@@ -12,17 +10,20 @@ def FCAPlot(ISIN):
     ISIN_Prices = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/YAHOOPRICES/" + str(ISIN) + "_HPRI.pkl")
     ISIN_Shorts = pd.read_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/FCAData/" + str(ISIN) + "_HFCA.pkl")
 
-    # Add price to end of isin short
+
+
+    # This cant deal with duplicate indexes. Change it so that if there is a duplicate index, it combines the names to 'x and y'
+    # For now, just drop dupes
 
 
     #Reindex to date
     ISIN_Shorts.set_index(ISIN_Shorts['Position Date'], inplace=True)
-    print(ISIN_Shorts)
+    ISIN_Shorts = ISIN_Shorts[~ISIN_Shorts.index.duplicated(keep='first')]
 
     tester = pd.concat([ISIN_Prices, ISIN_Shorts], axis=1)
 
-    print(tester.tail(20))
-    print(ISIN_Shorts)
+
+
 
     fig = go.Figure()
 
@@ -45,18 +46,10 @@ def FCAPlot(ISIN):
                 size=15
 
             )))
+    return fig
 
 
 
 
 
-    fig.show()
 
-
-
-
-    # fig.show()
-
-
-
-FCAPlot("GB00BZ1G4322")

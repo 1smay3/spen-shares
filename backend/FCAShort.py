@@ -3,7 +3,7 @@ import requests
 from pandas.tseries.offsets import BDay
 import time
 from backend.YahooAPI import *
-
+from backend.FCAPlot import FCAPlot
 # Use request otherwise get HTTP 403 error
 url = "https://www.fca.org.uk/publication/data/short-positions-daily-update.xls"
 data_request = requests.get(url).content
@@ -44,27 +44,58 @@ CurrentDisclosuresList = CurrentDisclosuresExcel['ISIN'].to_list()
 CurrentDisclosuresList = (list(set(CurrentDisclosuresList)))
 
 # Make a dataframe for each relevant ISIN
-for ISIN in CurrentDisclosuresList:
-    dfName = ISIN + "df"
-    dfName = CurrentDisclosuresExcel.loc[CurrentDisclosuresExcel['ISIN'] == ISIN]
-    earliest_date = dfName['Position Date'].min()
-    latest_date = dfName['Position Date'].max()
-    #Subtract 1 year working days from the date and add to end. If date is in future it just gets the most it can
-    earliest_date = (earliest_date - BDay(252)).date()
-    latest_date = (latest_date + BDay(252)).date()
-
-    dfName.to_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/FCAData/" + str(ISIN) + "_HFCA.pkl")
-    # Download data from yahoo and save. Then sleep to prevent cooldown
-    try:
-        relevant_prices = YahooStockPrice(ISIN, earliest_date, latest_date)
-        # Save down relevant prices
-        relevant_prices.to_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/YAHOOPRICES/" + str(ISIN) + "_HPRI.pkl")
-        print(relevant_prices)
-        time.sleep(1)
-    except AttributeError:
-        pass
+#
+# for ISIN in CurrentDisclosuresList:
+#     dfName = ISIN + "df"
+#     dfName = CurrentDisclosuresExcel.loc[CurrentDisclosuresExcel['ISIN'] == ISIN]
+#     earliest_date = dfName['Position Date'].min()
+#     latest_date = dfName['Position Date'].max()
+#
+#     #Subtract 1 year working days from the date and add to end. If date is in future it just gets the most it can
+#     minimum_date_chart = (earliest_date - BDay(252)).date()
+#     maximum_date_chart = (latest_date + BDay(252)).date()
+#
+#     dfName.to_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/FCAData/" + str(ISIN) + "_HFCA.pkl")
+#     # Download data from yahoo and save. Then sleep to prevent cooldown
+#     try:
+#         relevant_prices = YahooStockPrice(ISIN, minimum_date_chart, maximum_date_chart)
+#         # Save down relevant prices
+#         relevant_prices.to_pickle("C:/Users/spenc/PycharmProjects/spen-shares/data/YAHOOPRICES/" + str(ISIN) + "_HPRI.pkl")
+#
+#         time.sleep(1)
+#     except AttributeError:
+#         pass
 
 
 # Use sheetname as filename suffix
 # save_down = DATA_ROOT+"/FCA/FCASHORTS_"+str(CurrentSheetList.replace('.', '-'))+".csv"
 # SummedShortDFSorted.to_csv(save_down)
+
+
+def getFCAdictionary():
+    dictionary_data = CurrentDisclosuresExcel[['Name of Share Issuer', 'ISIN']]
+    dictionary_data.drop_duplicates(subset=['ISIN'], inplace=True)
+    current_short_companies = dictionary_data['Name of Share Issuer']
+    current_short_ISIN = dictionary_data['ISIN']
+
+
+    dict_list=[]
+    for i, j in zip(current_short_companies,current_short_ISIN):
+       dict={}
+       dict['label'] = i
+       dict['value'] = j
+       dict_list.append(dict)
+
+            
+    return dict_list
+
+def getISIN(stockName):
+    dictionary_data = CurrentDisclosuresExcel[['Name of Share Issuer', 'ISIN']]
+    dictionary_data.drop_duplicates(subset=['ISIN'], inplace=True)
+    firm_isin =dictionary_data.loc[dictionary_data['Name of Share Issuer'] == stockName, 'ISIN'].iloc[0]
+
+    return firm_isin
+
+print(getFCAdictionary())
+
+
