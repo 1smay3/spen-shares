@@ -4,6 +4,7 @@ from pandas.tseries.offsets import BDay
 import time
 from backend.YahooAPI import *
 from backend.FCAPlot import FCAPlot
+from settings import DATA_ROOT
 # Use request otherwise get HTTP 403 error
 url = "https://www.fca.org.uk/publication/data/short-positions-daily-update.xls"
 data_request = requests.get(url).content
@@ -37,6 +38,8 @@ SummedShortDuplicatesDF = pd.DataFrame(SummedShortDuplicates, index=CurrentDiscl
 SummedShortDF = SummedShortDuplicatesDF.drop_duplicates()
 SummedShortDFSorted = SummedShortDF.sort_values(by=['Net Short Position (%)'], ascending=False)
 
+
+
 # Get list of stocks firms are currently long
 CurrentDisclosuresList = CurrentDisclosuresExcel['ISIN'].to_list()
 
@@ -65,11 +68,12 @@ CurrentDisclosuresList = (list(set(CurrentDisclosuresList)))
 #         time.sleep(1)
 #     except AttributeError:
 #         pass
-
-
+#
+#
 # Use sheetname as filename suffix
-# save_down = DATA_ROOT+"/FCA/FCASHORTS_"+str(CurrentSheetList.replace('.', '-'))+".csv"
-# SummedShortDFSorted.to_csv(save_down)
+
+save_down = DATA_ROOT+"/FCA/FCASHORTS_"+str(CurrentSheetList[0].replace('.', '-'))+".csv"
+SummedShortDFSorted.to_csv(save_down)
 
 
 def getFCAdictionary():

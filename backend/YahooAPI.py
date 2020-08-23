@@ -13,3 +13,4 @@ def YahooStockPrice(ISIN, startDate, endDate):
                 return print(str(ISIN) + ": Failed")
         data = yf.download(symbol, start=startDate, end=endDate)
         return data
+
