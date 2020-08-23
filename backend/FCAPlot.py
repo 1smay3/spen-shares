@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from settings import DATA_ROOT
 import numpy as np
-from ChartPlotter import validrangefinder
+from backend.ChartPlotter import validrangefinder
 
 # TEST WITH ISIN
 
