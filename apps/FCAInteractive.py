@@ -16,7 +16,7 @@ import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 
 
-
+# TODO: Secondary chart could be a table, of previously closed shorts and how they did...or should that information just be more markers on the MainChart with red for short green for closed position?
 list_of_files = glob.glob(DATA_ROOT + '/FCA/*.csv') # * means all if need specific format then *.csv
 latest_file = max(list_of_files, key=os.path.getctime)
 
