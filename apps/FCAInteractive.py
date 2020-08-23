@@ -27,32 +27,39 @@ file_name_string = ''.join(end_of_file_name)
 #Get slice of 10 char to get date
 
 latest_update_date = file_name_string[20:30]
-print(latest_update_date)
+
 
 # Dropdown Selector
 FirmSelector = html.Div(
                              children=[
-                                 html.H2('DCF Estimation'),
-                                 html.P('Visualising DCF estimation series'),
+                                 html.H2('FCA Short Disclosures'),
+                                 html.P('The charts to the right display recent share price histories for UK equities '
+                                        'which have current open short positions by institutiuonal investors who are subject to '
+                                        'FCA regulation'),
                                  html.P('Pick stocks from the dropdown below to update the charts.'),
                                  html.P('Data as of: ' + latest_update_date),
                                  html.Div(
 
     dcc.Dropdown(id='firmselector', options=getFCAdictionary(),
-                                                      multi=False, value='GB00B5N0P849'
+                                                      multi=False, value='GB00B5N0P849', clearable=False, className='selector'
 
                                                             )
                                  )
                              ])
 
 #plot charts
-MainChart = FCAPlot("GB00B5N0P849")
-
+MainChart = FCAPlot("GB00B5N0P849", "FCA Disclosed Shorts")
+SecondaryChart = FCAPlot("GB00B5N0P849", "PLACEHOLDER FOR SECONDARY CHART")
 
 
 FCAChart = html.Div(className="dashboard-chart",
     children=[
         dcc.Graph(id='FCAChart', figure=MainChart)
+    ])
+
+bottomchart = html.Div(className="dashboard-chart",
+    children=[
+        dcc.Graph(id='bottomchart', figure=SecondaryChart)
     ])
 
 
@@ -65,7 +72,17 @@ FCAChart = html.Div(className="dashboard-chart",
 def update_chart(value):
     #Convert name to ISIN
 
-    figure = FCAPlot(value)
+    figure = FCAPlot(value, "FCA Disclosed Shorts")
+    return figure
+
+@app.callback(
+    dash.dependencies.Output('bottomchart', 'figure'),
+    [dash.dependencies.Input('firmselector', 'value')])
+
+def update_chart(value):
+    #Convert name to ISIN
+
+    figure = FCAPlot(value, "PLACEHOLDER FOR SECONDARY CHART")
     return figure
 
 
@@ -77,7 +94,10 @@ layout = [navbar,html.Div(
                 dbc.Col(FirmSelector, width=2, className='dashboard-LHS-columns'),
                 dbc.Col([
                     html.Div(dbc.Row(FCAChart)),
+                    html.Div(dbc.Row(bottomchart))
                     ], width=10, className='dashboard-RHS-columns'
 
                 )]
         )])]
+
+

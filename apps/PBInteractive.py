@@ -29,7 +29,7 @@ FirmSelector = html.Div(
                                  html.Div(
 
     dcc.Dropdown(id='stockselector', options=getspydictionary(),
-                                                      multi=False, value='MMM'
+                                                      multi=False, value='MMM', clearable=False, className='selector'
                                                             )
                                  )])
 

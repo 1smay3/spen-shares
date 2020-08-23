@@ -78,9 +78,9 @@ SummedShortDFSorted.to_csv(save_down)
 
 def getFCAdictionary():
     dictionary_data = CurrentDisclosuresExcel[['Name of Share Issuer', 'ISIN']]
-    dictionary_data.drop_duplicates(subset=['ISIN'], inplace=True)
-    current_short_companies = dictionary_data['Name of Share Issuer']
-    current_short_ISIN = dictionary_data['ISIN']
+    dictionary_data_nodupe = dictionary_data.drop_duplicates(subset=['ISIN'])
+    current_short_companies = dictionary_data_nodupe['Name of Share Issuer']
+    current_short_ISIN = dictionary_data_nodupe['ISIN']
 
 
     dict_list=[]

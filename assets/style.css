@@ -13,6 +13,7 @@
 .dashboard-LHS-columns {
 background-color: #F8F8F8;
 font-size:20px;
+padding-left: 20px;
 }
 
 .dashboard-RHS-columns {
@@ -24,4 +25,12 @@ font-size:20px;
 
 .greennav{
 background-color: #00b300;
+}
+
+.selector{
+font-size:13px;
+width: 100%,
+display: inline-block
+
+
 }

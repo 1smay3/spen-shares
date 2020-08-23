@@ -7,7 +7,7 @@ from backend.ChartPlotter import validrangefinder
 # TEST WITH ISIN
 
 
-def FCAPlot(ISIN):
+def FCAPlot(ISIN,title):
     #Import Prices
     try:
         ISIN_Prices = pd.read_pickle(DATA_ROOT + "/YAHOOPRICES/" + str(ISIN) + "_HPRI.pkl")
@@ -54,8 +54,14 @@ def FCAPlot(ISIN):
 
             )))
 
+    fig.update_layout(
+        title_text=title,
+        template='plotly_dark').update_layout(
+        {'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+         'paper_bgcolor': 'rgba(0, 0, 0, 0)'})
+
     tester.reset_index(inplace=True)
-    print(tester)
+
     inital_range = validrangefinder(tester, 'Adj Close', 'index')
     fig['layout']['xaxis'].update(range=inital_range)
 
