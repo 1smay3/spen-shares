@@ -41,15 +41,15 @@ FirmSelector = html.Div(
                                  html.Div(
 
     dcc.Dropdown(id='firmselector', options=getFCAdictionary(),
-                                                      multi=False, value='GB00B5N0P849', clearable=False, className='selector'
+                                                      multi=False, value='GB0006640972', clearable=False, className='selector'
 
                                                             )
                                  )
                              ])
 
 #plot charts
-MainChart = FCAPlot("GB00B5N0P849", "FCA Disclosed Shorts")
-SecondaryChart = FCAPlot("GB00B5N0P849", "PLACEHOLDER FOR SECONDARY CHART")
+MainChart = FCAPlot("GB0006640972", "FCA Disclosed Shorts")
+SecondaryChart = FCAPlot("GB0006640972", "PLACEHOLDER FOR SECONDARY CHART")
 
 
 FCAChart = html.Div(className="dashboard-chart",

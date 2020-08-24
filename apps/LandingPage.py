@@ -52,7 +52,7 @@ FCA_card_content = [
     dbc.CardBody(
         [
                         html.P(
-                "Analysis of FCA short declerations for publically listed companies in the UK. Includes entry and exit points aswell"
+                "Analysis of FCA short declerations for publically listed companies in the UK. Includes entry and exit points aswell "
                 "as performance analysis of managers shorts",
                 className="card-text",
             ),
