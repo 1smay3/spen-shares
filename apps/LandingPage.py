@@ -81,7 +81,7 @@ Basic_Algo = [
     dbc.CardBody(
         [
                         html.P(
-                "Very basic in-house algorithm with transparent parameters and full historic performance",
+                "Basic algorithm with transparent parameters and full historic performance",
                 className="card-text",
             ),
         dbc.Button("Algorithm", color="primary", href="/algo")

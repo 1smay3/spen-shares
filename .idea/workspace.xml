@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a741dadb-b3ee-4555-9265-4cfe7c3e61ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/FCAInteractive.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/FCAInteractive.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,11 +159,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.FCAInteractive" />
+      <item itemvalue="Python.FCAPlot" />
       <item itemvalue="Python.FCAShort (1)" />
       <item itemvalue="Python.index (1)" />
       <item itemvalue="Python.tester" />
-      <item itemvalue="Python.FCAPlot" />
-      <item itemvalue="Python.FCAInteractive" />
     </list>
     <recent_temporary>
       <list>
@@ -186,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596392696836</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Working DCF section - Now implement visuals">
-      <created>1596489530027</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1596489530027</updated>
     </task>
     <task id="LOCAL-00003" summary="Visuals as desired - now to change layout so all fits and is readable">
       <created>1596490694240</created>
@@ -530,13 +522,19 @@
       <option name="project" value="LOCAL" />
       <updated>1598196194356</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Grammar Corrections&#10;Dropdown default company is first alphabetically">
+      <created>1598272104238</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1598272104239</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Layout for dashboard designed correctly - now to insert content" />
     <MESSAGE value="Interacticity on PE and DCF completed" />
     <MESSAGE value="Data added" />
     <MESSAGE value="Root-handling added" />
@@ -561,7 +559,8 @@
     <MESSAGE value="FCA functionality added" />
     <MESSAGE value="Trying to fix FCA crash from worker timeout" />
     <MESSAGE value="Added styling to FCA page and placeholder&#10;Added CSS element to style firmselector panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added styling to FCA page and placeholder&#10;Added CSS element to style firmselector panel" />
+    <MESSAGE value="Grammar Corrections&#10;Dropdown default company is first alphabetically" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grammar Corrections&#10;Dropdown default company is first alphabetically" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1596392831013">
@@ -608,12 +607,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#navbar/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596489064817" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1598196193540">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1598272102900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="101" key="CommitChangelistDialog2/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596895998414" />
     <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096070975" />
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598196193540" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598272102900" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1598126374900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -622,34 +621,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596734390295" />
-    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1598212167045">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom" timestamp="1598273205297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.bottom/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
     <state width="1899" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096071806" />
-    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598212167045" />
-    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1598212167044">
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598273205297" />
+    <state width="1899" height="218" key="GridCell.Tab.0.center" timestamp="1598273205297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.center/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
     <state width="1899" height="217" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096071806" />
-    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598212167044" />
-    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1598212167044">
+    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598273205297" />
+    <state width="1899" height="218" key="GridCell.Tab.0.left" timestamp="1598273205296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.left/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
     <state width="1899" height="217" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096071806" />
-    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598212167044" />
-    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1598212167044">
+    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598273205296" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right" timestamp="1598273205297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="282" key="GridCell.Tab.0.right/0.0.1280.920/-1920.0.1920.1040@0.0.1280.920" timestamp="1596462833495" />
     <state width="1882" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596465073801" />
     <state width="1899" height="217" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597096071806" />
-    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598212167044" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598273205297" />
     <state x="747" y="230" key="RollbackChangesDialog" timestamp="1598126369537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -663,11 +662,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597073044826" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598196196674">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598272468630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597082051531" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598196196674" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598272468630" />
     <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598128242515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
